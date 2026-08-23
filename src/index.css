@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors (Section 6 & 11) */
+  --color-background: #f7f3ec;
+  --color-surface: #fffdf9;
+  --color-foreground: #241f1c;
+  --color-muted-foreground: #7a716a;
+  --color-primary: #b23a2e;
+  --color-secondary: #5c2a2e;
+  --color-tertiary: #b08d57; /* Brass accent */
+  --color-border: #e7e0d6;
+  --color-success: #6b7a5e;
+  --color-warning: #c97d4a;
+  --color-error: #a6342a;
+  --color-primary-text: #8e2e24;
+
+  /* Font Families - PLACEHOLDER — final typeface TBD per blueprint §36 */
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Radii (Section 29) */
+  --radius-soft: 6px;
+  --radius-none: 0px;
+
+  /* Shadows (Section 29) */
+  --shadow-card: 0 1px 3px rgba(36, 31, 28, 0.08);
+  --shadow-drawer: 0 4px 16px rgba(36, 31, 28, 0.12);
+
+  /* Borders (Section 29) */
+  --border-hairline: 1px solid var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
