@@ -33,6 +33,28 @@
 
   /* Borders (Section 29) */
   --border-hairline: 1px solid var(--color-border);
+
+  /* shadcn/ui custom variables mapped directly to M2 tokens (no new colors/radii invented) */
+  --background: var(--color-background);
+  --foreground: var(--color-foreground);
+  --card: var(--color-surface);
+  --card-foreground: var(--color-foreground);
+  --popover: var(--color-surface);
+  --popover-foreground: var(--color-foreground);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-surface);
+  --secondary: var(--color-secondary);
+  --secondary-foreground: var(--color-surface);
+  --muted: var(--color-background);
+  --muted-foreground: var(--color-muted-foreground);
+  --accent: var(--color-background);
+  --accent-foreground: var(--color-foreground);
+  --destructive: var(--color-error);
+  --destructive-foreground: var(--color-surface);
+  --border: var(--color-border);
+  --input: var(--color-border);
+  --ring: var(--color-primary);
+  --radius: var(--radius-soft);
 }
 
 body {

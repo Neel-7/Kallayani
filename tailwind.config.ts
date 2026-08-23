@@ -7,6 +7,7 @@ import { shadows } from './src/tokens/shadows';
 import { breakpoints } from './src/tokens/breakpoints';
 
 export default {
+  darkMode: ['class'],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -23,6 +24,17 @@ export default {
         warning: colors.warning,
         error: colors.error,
         'primary-text': colors.primaryText,
+
+        // shadcn/ui primitive remappings pointing strictly to M2 tokens (no new colors invented)
+        'primary-foreground': colors.surface,
+        'secondary-foreground': colors.surface,
+        input: colors.border,
+        ring: colors.primary,
+        accent: colors.background,
+        'accent-foreground': colors.foreground,
+        muted: colors.background,
+        destructive: colors.error,
+        'destructive-foreground': colors.surface,
       },
       fontFamily: {
         display: [fontFamilies.display, 'serif'],
@@ -63,6 +75,20 @@ export default {
         md: breakpoints.md,
         lg: breakpoints.lg,
         xl: breakpoints.xl,
+      },
+      keyframes: {
+        'accordion-down': {
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        'accordion-up': {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
+        },
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out',
       },
     },
   },
