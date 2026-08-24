@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 import { colors } from './src/tokens/colors';
+import { containerWidths } from './src/tokens/containers';
 import { fontFamilies, typeScale } from './src/tokens/typography';
 import { spacing } from './src/tokens/spacing';
 import { radii } from './src/tokens/radii';
@@ -24,15 +25,16 @@ export default {
         warning: colors.warning,
         error: colors.error,
         'primary-text': colors.primaryText,
+        'muted-surface': colors.mutedSurface,
 
         // shadcn/ui primitive remappings pointing strictly to M2 tokens (no new colors invented)
         'primary-foreground': colors.surface,
         'secondary-foreground': colors.surface,
         input: colors.border,
         ring: colors.primary,
-        accent: colors.background,
+        accent: colors.mutedSurface,
         'accent-foreground': colors.foreground,
-        muted: colors.background,
+        muted: colors.mutedSurface,
         destructive: colors.error,
         'destructive-foreground': colors.surface,
       },
@@ -62,6 +64,10 @@ export default {
       boxShadow: {
         card: shadows.card,
         drawer: shadows.drawer,
+      },
+      maxWidth: {
+        'container-content': containerWidths.content,
+        'container-wide': containerWidths.wide,
       },
       // BREAKPOINTS MAPPING (Section 23)
       // xs: 360px  - Base / Mobile devices

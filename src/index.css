@@ -18,6 +18,7 @@
   --color-warning: #c97d4a;
   --color-error: #a6342a;
   --color-primary-text: #8e2e24;
+  --color-muted-surface: #efe9de;
 
   /* Font Families - PLACEHOLDER — final typeface TBD per blueprint §36 */
   --font-display: 'Source Serif 4', Georgia, serif;
@@ -45,9 +46,9 @@
   --primary-foreground: var(--color-surface);
   --secondary: var(--color-secondary);
   --secondary-foreground: var(--color-surface);
-  --muted: var(--color-background);
+  --muted: var(--color-muted-surface);
   --muted-foreground: var(--color-muted-foreground);
-  --accent: var(--color-background);
+  --accent: var(--color-muted-surface);
   --accent-foreground: var(--color-foreground);
   --destructive: var(--color-error);
   --destructive-foreground: var(--color-surface);

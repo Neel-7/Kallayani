@@ -11,6 +11,7 @@ export const colors = {
   warning: '#C97D4A',
   error: '#A6342A',
   primaryText: '#8E2E24', // Darkened primary variant for normal/body text use
+  mutedSurface: '#EFE9DE', // Deeper warm-neutral step for muted elements and hover states
 } as const;
 
 export type Colors = typeof colors;
