@@ -1,9 +1,13 @@
 import { Heart, Menu, Search, ShoppingBag, User } from 'lucide-react';
 import { Link, Outlet } from 'react-router-dom';
+import { CartDrawer } from 'src/components/commerce/CartDrawer';
 import { Container } from 'src/components/shared/Container';
 import { Button } from 'src/components/ui/button';
+import { useCart } from 'src/features/cart/useCart';
 
 export function SiteLayout() {
+  const { setOpen, itemCount } = useCart();
+
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground font-sans">
       {/* Skip to Main Content Link (A11y) */}
@@ -140,10 +144,19 @@ export function SiteLayout() {
               </Link>
             </Button>
 
-            <Button variant="ghost" size="icon" asChild aria-label="Your Bag">
-              <Link to="/cart">
-                <ShoppingBag className="h-5 w-5" />
-              </Link>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setOpen(true)}
+              className="relative"
+              aria-label={`Open shopping bag, contains ${itemCount} items`}
+            >
+              <ShoppingBag className="h-5 w-5" />
+              {itemCount > 0 && (
+                <span className="absolute top-[2px] right-[2px] h-4 w-4 rounded-full bg-primary text-[10px] font-bold text-surface flex items-center justify-center font-mono animate-pulse">
+                  {itemCount}
+                </span>
+              )}
             </Button>
           </div>
         </Container>
@@ -228,6 +241,9 @@ export function SiteLayout() {
           (Phase 1 / M5).
         </Container>
       </footer>
+
+      {/* Global Shopping Cart Sidebar Drawer */}
+      <CartDrawer />
     </div>
   );
 }

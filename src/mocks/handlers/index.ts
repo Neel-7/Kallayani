@@ -1,7 +1,8 @@
-import { pingHandler } from './ping';
+import { catalogHandlers } from './catalogHandlers';
+import { checkoutHandlers } from './checkoutHandlers';
 
 /**
  * Global handlers list for Mock Service Worker (MSW).
- * Ready for future feature handlers (catalog, products, cart) in M7.
+ * Wired up to serve both catalog selections and checkout mutations.
  */
-export const handlers = [pingHandler];
+export const handlers = [...catalogHandlers, ...checkoutHandlers];

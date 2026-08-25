@@ -1,0 +1,1797 @@
+[
+  {
+    "id": "prod_001",
+    "slug": "heritage-jamdani-hand-loomed-silk-shawl",
+    "name": "Heritage Jamdani Hand-Loomed Silk Shawl",
+    "description": "A singular collector's masterpiece. Features fine hand-loom Jamdani floral motifs floating on a sheer mulberry silk canvas, ideal as a layered accessory.",
+    "price": {
+      "amount": 18500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_001_1",
+        "size": "OS",
+        "color": "Ivory Cream",
+        "stock": 15
+      }
+    ],
+    "occasionTags": ["Festive", "Gifting"],
+    "fabric": "Pure Mulberry Silk",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_002",
+    "slug": "varanasi-gold-zari-kora-silk-saree",
+    "name": "Varanasi Gold Zari Kora Silk Saree",
+    "description": "An elegant hand-loom kora silk saree adorned with classic gold zari borders and intricate floral details. Pure luxury woven over several weeks.",
+    "price": {
+      "amount": 42000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_002_1",
+        "size": "OS",
+        "color": "Brass Gold",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Festive", "Bridal"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "out_of_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_003",
+    "slug": "bengal-indigo-khadi-kurta-set",
+    "name": "Bengal Indigo Khadi Kurta Set",
+    "description": "Hand-spun and hand-woven khadi cotton set dyed in premium organic indigo blocks. Soft on the skin, highly breathable, and tailored with deep pockets.",
+    "price": {
+      "amount": 8900,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_003_1",
+        "size": "S",
+        "color": "Royal Indigo",
+        "stock": 1
+      },
+      {
+        "id": "v_003_2",
+        "size": "M",
+        "color": "Royal Indigo",
+        "stock": 0
+      },
+      {
+        "id": "v_003_3",
+        "size": "L",
+        "color": "Royal Indigo",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Casual", "Daywear"],
+    "fabric": "Khadi Cotton",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_004",
+    "slug": "the-royal-kanchipuram-brocade-silk-saree-with-traditional-hand-woven-golden-thread-border-and-exquisite-floral-motifs",
+    "name": "The Royal Kanchipuram Brocade Silk Saree with Traditional Hand-Woven Golden Thread Border and Exquisite Floral Motifs",
+    "description": "An exceptional structural masterpiece represents the highest echelons of South Indian weaving. This saree represents three weeks of unceasing, mathematically precise manual loom configuration. Woven with double-warp threads of heavy mulberry silk from Mysore, it achieves a high-density, crisp silk drape that holds shape flawlessly. Every individual border motif represents traditional Dravidian temple friezes and mythical lions (Yali), meticulously jointed using the traditional Petni technique which welds the contrasting vermilion border directly into the deep brass-gold body threads. The heavy zari pallu showcases a breathtaking tapestry of traditional paisley vines, floral baskets, and geometric diamond grids woven with pure silver thread dipped in solid 22-carat gold bath. Ideal for weddings, high-end bridal contexts, and multi-generational heritage collections. Unmatched in quality, thickness, and longevity.",
+    "price": {
+      "amount": 65000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_004_1",
+        "size": "OS",
+        "color": "Brass Gold",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Bridal", "Festive", "Heritage"],
+    "fabric": "Mysore Mulberry Silk",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_005",
+    "slug": "ivory-cream-chikankari-tussar-silk-maxi-dress",
+    "name": "Ivory Cream Chikankari Tussar Silk Maxi Dress",
+    "description": "A stunning presentational Maxi Dress celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 13000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_5_1",
+        "size": "XS",
+        "color": "Ivory Cream",
+        "stock": 0
+      },
+      {
+        "id": "v_5_2",
+        "size": "S",
+        "color": "Ivory Cream",
+        "stock": 12
+      },
+      {
+        "id": "v_5_3",
+        "size": "M",
+        "color": "Ivory Cream",
+        "stock": 15
+      },
+      {
+        "id": "v_5_4",
+        "size": "L",
+        "color": "Ivory Cream",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Tussar Silk",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_006",
+    "slug": "rose-coral-jamdani-organza-ready-to-wear-suit",
+    "name": "Rose Coral Jamdani Organza Ready-to-Wear Suit",
+    "description": "A stunning presentational Ready-to-Wear Suit celebrating the legacy of Jamdani Hand-Weave hailing from Dhaka, Bengal. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 14100,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_6_1",
+        "size": "XS",
+        "color": "Rose Coral",
+        "stock": 4
+      },
+      {
+        "id": "v_6_2",
+        "size": "S",
+        "color": "Rose Coral",
+        "stock": 12
+      },
+      {
+        "id": "v_6_3",
+        "size": "M",
+        "color": "Rose Coral",
+        "stock": 15
+      },
+      {
+        "id": "v_6_4",
+        "size": "L",
+        "color": "Rose Coral",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Organza",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_007",
+    "slug": "crimson-vermilion-banarasi-kora-silk-saree",
+    "name": "Crimson Vermilion Banarasi Kora Silk Saree",
+    "description": "A stunning presentational Saree celebrating the legacy of Banarasi Brocade hailing from Varanasi, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 15200,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_7_1",
+        "size": "XS",
+        "color": "Crimson Vermilion",
+        "stock": 4
+      },
+      {
+        "id": "v_7_2",
+        "size": "S",
+        "color": "Crimson Vermilion",
+        "stock": 12
+      },
+      {
+        "id": "v_7_3",
+        "size": "M",
+        "color": "Crimson Vermilion",
+        "stock": 15
+      },
+      {
+        "id": "v_7_4",
+        "size": "L",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_008",
+    "slug": "brass-gold-kanchipuram-mulmul-cotton-kurta-set",
+    "name": "Brass Gold Kanchipuram Mulmul Cotton Kurta Set",
+    "description": "A stunning presentational Kurta Set celebrating the legacy of Kanchipuram Silk Weaving hailing from Kanchipuram, Tamil Nadu. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 16300,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_8_1",
+        "size": "XS",
+        "color": "Brass Gold",
+        "stock": 4
+      },
+      {
+        "id": "v_8_2",
+        "size": "S",
+        "color": "Brass Gold",
+        "stock": 1
+      },
+      {
+        "id": "v_8_3",
+        "size": "M",
+        "color": "Brass Gold",
+        "stock": 15
+      },
+      {
+        "id": "v_8_4",
+        "size": "L",
+        "color": "Brass Gold",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Mulmul Cotton",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_009",
+    "slug": "marigold-yellow-chanderi-chanderi-silk-cotton-anarkali-set",
+    "name": "Marigold Yellow Chanderi Chanderi Silk-Cotton Anarkali Set",
+    "description": "A stunning presentational Anarkali Set celebrating the legacy of Chanderi Hand-Loom hailing from Chanderi, Madhya Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 17400,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_9_1",
+        "size": "XS",
+        "color": "Marigold Yellow",
+        "stock": 4
+      },
+      {
+        "id": "v_9_2",
+        "size": "S",
+        "color": "Marigold Yellow",
+        "stock": 12
+      },
+      {
+        "id": "v_9_3",
+        "size": "M",
+        "color": "Marigold Yellow",
+        "stock": 15
+      },
+      {
+        "id": "v_9_4",
+        "size": "L",
+        "color": "Marigold Yellow",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Chanderi Silk-Cotton",
+    "productStory": {
+      "technique": "Chanderi Hand-Loom",
+      "origin": "Chanderi, Madhya Pradesh",
+      "description": "Woven with fine pure silk and cotton, creating a sheer, translucent texture. Celebrated for its lightweight utility, narrow gold borders, and delicate hand-woven buttis (motifs)."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_010",
+    "slug": "royal-indigo-ajrakh-khadi-cotton-fusion-dress",
+    "name": "Royal Indigo Ajrakh Khadi Cotton Fusion Dress",
+    "description": "A stunning presentational Fusion Dress celebrating the legacy of Ajrakh Block Print hailing from Bhuj, Gujarat. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 18500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_10_1",
+        "size": "XS",
+        "color": "Royal Indigo",
+        "stock": 0
+      },
+      {
+        "id": "v_10_2",
+        "size": "S",
+        "color": "Royal Indigo",
+        "stock": 12
+      },
+      {
+        "id": "v_10_3",
+        "size": "M",
+        "color": "Royal Indigo",
+        "stock": 15
+      },
+      {
+        "id": "v_10_4",
+        "size": "L",
+        "color": "Royal Indigo",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Khadi Cotton",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_011",
+    "slug": "forest-moss-chikankari-raw-silk-tunic",
+    "name": "Forest Moss Chikankari Raw Silk Tunic",
+    "description": "A stunning presentational Tunic celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 19600,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_11_1",
+        "size": "XS",
+        "color": "Forest Moss",
+        "stock": 4
+      },
+      {
+        "id": "v_11_2",
+        "size": "S",
+        "color": "Forest Moss",
+        "stock": 12
+      },
+      {
+        "id": "v_11_3",
+        "size": "M",
+        "color": "Forest Moss",
+        "stock": 15
+      },
+      {
+        "id": "v_11_4",
+        "size": "L",
+        "color": "Forest Moss",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Raw Silk",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_012",
+    "slug": "ivory-cream-jamdani-tussar-silk-maxi-dress",
+    "name": "Ivory Cream Jamdani Tussar Silk Maxi Dress",
+    "description": "A stunning presentational Maxi Dress celebrating the legacy of Jamdani Hand-Weave hailing from Dhaka, Bengal. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 20700,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_12_1",
+        "size": "XS",
+        "color": "Ivory Cream",
+        "stock": 4
+      },
+      {
+        "id": "v_12_2",
+        "size": "S",
+        "color": "Ivory Cream",
+        "stock": 1
+      },
+      {
+        "id": "v_12_3",
+        "size": "M",
+        "color": "Ivory Cream",
+        "stock": 15
+      },
+      {
+        "id": "v_12_4",
+        "size": "L",
+        "color": "Ivory Cream",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Tussar Silk",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_013",
+    "slug": "rose-coral-banarasi-organza-ready-to-wear-suit",
+    "name": "Rose Coral Banarasi Organza Ready-to-Wear Suit",
+    "description": "A stunning presentational Ready-to-Wear Suit celebrating the legacy of Banarasi Brocade hailing from Varanasi, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 21800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_13_1",
+        "size": "XS",
+        "color": "Rose Coral",
+        "stock": 4
+      },
+      {
+        "id": "v_13_2",
+        "size": "S",
+        "color": "Rose Coral",
+        "stock": 12
+      },
+      {
+        "id": "v_13_3",
+        "size": "M",
+        "color": "Rose Coral",
+        "stock": 15
+      },
+      {
+        "id": "v_13_4",
+        "size": "L",
+        "color": "Rose Coral",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Organza",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_014",
+    "slug": "crimson-vermilion-kanchipuram-kora-silk-saree",
+    "name": "Crimson Vermilion Kanchipuram Kora Silk Saree",
+    "description": "A stunning presentational Saree celebrating the legacy of Kanchipuram Silk Weaving hailing from Kanchipuram, Tamil Nadu. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 22900,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_14_1",
+        "size": "XS",
+        "color": "Crimson Vermilion",
+        "stock": 4
+      },
+      {
+        "id": "v_14_2",
+        "size": "S",
+        "color": "Crimson Vermilion",
+        "stock": 12
+      },
+      {
+        "id": "v_14_3",
+        "size": "M",
+        "color": "Crimson Vermilion",
+        "stock": 15
+      },
+      {
+        "id": "v_14_4",
+        "size": "L",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_015",
+    "slug": "brass-gold-chanderi-mulmul-cotton-kurta-set",
+    "name": "Brass Gold Chanderi Mulmul Cotton Kurta Set",
+    "description": "A stunning presentational Kurta Set celebrating the legacy of Chanderi Hand-Loom hailing from Chanderi, Madhya Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 24000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_15_1",
+        "size": "XS",
+        "color": "Brass Gold",
+        "stock": 0
+      },
+      {
+        "id": "v_15_2",
+        "size": "S",
+        "color": "Brass Gold",
+        "stock": 12
+      },
+      {
+        "id": "v_15_3",
+        "size": "M",
+        "color": "Brass Gold",
+        "stock": 15
+      },
+      {
+        "id": "v_15_4",
+        "size": "L",
+        "color": "Brass Gold",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Mulmul Cotton",
+    "productStory": {
+      "technique": "Chanderi Hand-Loom",
+      "origin": "Chanderi, Madhya Pradesh",
+      "description": "Woven with fine pure silk and cotton, creating a sheer, translucent texture. Celebrated for its lightweight utility, narrow gold borders, and delicate hand-woven buttis (motifs)."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_016",
+    "slug": "marigold-yellow-ajrakh-chanderi-silk-cotton-anarkali-set",
+    "name": "Marigold Yellow Ajrakh Chanderi Silk-Cotton Anarkali Set",
+    "description": "A stunning presentational Anarkali Set celebrating the legacy of Ajrakh Block Print hailing from Bhuj, Gujarat. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 25100,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_16_1",
+        "size": "XS",
+        "color": "Marigold Yellow",
+        "stock": 4
+      },
+      {
+        "id": "v_16_2",
+        "size": "S",
+        "color": "Marigold Yellow",
+        "stock": 1
+      },
+      {
+        "id": "v_16_3",
+        "size": "M",
+        "color": "Marigold Yellow",
+        "stock": 15
+      },
+      {
+        "id": "v_16_4",
+        "size": "L",
+        "color": "Marigold Yellow",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Chanderi Silk-Cotton",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_017",
+    "slug": "royal-indigo-chikankari-khadi-cotton-fusion-dress",
+    "name": "Royal Indigo Chikankari Khadi Cotton Fusion Dress",
+    "description": "A stunning presentational Fusion Dress celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 26200,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_17_1",
+        "size": "XS",
+        "color": "Royal Indigo",
+        "stock": 4
+      },
+      {
+        "id": "v_17_2",
+        "size": "S",
+        "color": "Royal Indigo",
+        "stock": 12
+      },
+      {
+        "id": "v_17_3",
+        "size": "M",
+        "color": "Royal Indigo",
+        "stock": 15
+      },
+      {
+        "id": "v_17_4",
+        "size": "L",
+        "color": "Royal Indigo",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Khadi Cotton",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_018",
+    "slug": "forest-moss-jamdani-raw-silk-tunic",
+    "name": "Forest Moss Jamdani Raw Silk Tunic",
+    "description": "A stunning presentational Tunic celebrating the legacy of Jamdani Hand-Weave hailing from Dhaka, Bengal. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 27300,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_18_1",
+        "size": "XS",
+        "color": "Forest Moss",
+        "stock": 4
+      },
+      {
+        "id": "v_18_2",
+        "size": "S",
+        "color": "Forest Moss",
+        "stock": 12
+      },
+      {
+        "id": "v_18_3",
+        "size": "M",
+        "color": "Forest Moss",
+        "stock": 15
+      },
+      {
+        "id": "v_18_4",
+        "size": "L",
+        "color": "Forest Moss",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Raw Silk",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_019",
+    "slug": "ivory-cream-banarasi-tussar-silk-maxi-dress",
+    "name": "Ivory Cream Banarasi Tussar Silk Maxi Dress",
+    "description": "A stunning presentational Maxi Dress celebrating the legacy of Banarasi Brocade hailing from Varanasi, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 28400,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_19_1",
+        "size": "XS",
+        "color": "Ivory Cream",
+        "stock": 4
+      },
+      {
+        "id": "v_19_2",
+        "size": "S",
+        "color": "Ivory Cream",
+        "stock": 12
+      },
+      {
+        "id": "v_19_3",
+        "size": "M",
+        "color": "Ivory Cream",
+        "stock": 15
+      },
+      {
+        "id": "v_19_4",
+        "size": "L",
+        "color": "Ivory Cream",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Tussar Silk",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_020",
+    "slug": "rose-coral-kanchipuram-organza-ready-to-wear-suit",
+    "name": "Rose Coral Kanchipuram Organza Ready-to-Wear Suit",
+    "description": "A stunning presentational Ready-to-Wear Suit celebrating the legacy of Kanchipuram Silk Weaving hailing from Kanchipuram, Tamil Nadu. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 29500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_20_1",
+        "size": "XS",
+        "color": "Rose Coral",
+        "stock": 0
+      },
+      {
+        "id": "v_20_2",
+        "size": "S",
+        "color": "Rose Coral",
+        "stock": 1
+      },
+      {
+        "id": "v_20_3",
+        "size": "M",
+        "color": "Rose Coral",
+        "stock": 15
+      },
+      {
+        "id": "v_20_4",
+        "size": "L",
+        "color": "Rose Coral",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Organza",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_021",
+    "slug": "crimson-vermilion-chanderi-kora-silk-saree",
+    "name": "Crimson Vermilion Chanderi Kora Silk Saree",
+    "description": "A stunning presentational Saree celebrating the legacy of Chanderi Hand-Loom hailing from Chanderi, Madhya Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 30600,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_21_1",
+        "size": "XS",
+        "color": "Crimson Vermilion",
+        "stock": 4
+      },
+      {
+        "id": "v_21_2",
+        "size": "S",
+        "color": "Crimson Vermilion",
+        "stock": 12
+      },
+      {
+        "id": "v_21_3",
+        "size": "M",
+        "color": "Crimson Vermilion",
+        "stock": 15
+      },
+      {
+        "id": "v_21_4",
+        "size": "L",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Chanderi Hand-Loom",
+      "origin": "Chanderi, Madhya Pradesh",
+      "description": "Woven with fine pure silk and cotton, creating a sheer, translucent texture. Celebrated for its lightweight utility, narrow gold borders, and delicate hand-woven buttis (motifs)."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_022",
+    "slug": "brass-gold-ajrakh-mulmul-cotton-kurta-set",
+    "name": "Brass Gold Ajrakh Mulmul Cotton Kurta Set",
+    "description": "A stunning presentational Kurta Set celebrating the legacy of Ajrakh Block Print hailing from Bhuj, Gujarat. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 31700,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_22_1",
+        "size": "XS",
+        "color": "Brass Gold",
+        "stock": 4
+      },
+      {
+        "id": "v_22_2",
+        "size": "S",
+        "color": "Brass Gold",
+        "stock": 12
+      },
+      {
+        "id": "v_22_3",
+        "size": "M",
+        "color": "Brass Gold",
+        "stock": 15
+      },
+      {
+        "id": "v_22_4",
+        "size": "L",
+        "color": "Brass Gold",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Mulmul Cotton",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_023",
+    "slug": "marigold-yellow-chikankari-chanderi-silk-cotton-anarkali-set",
+    "name": "Marigold Yellow Chikankari Chanderi Silk-Cotton Anarkali Set",
+    "description": "A stunning presentational Anarkali Set celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 32800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_23_1",
+        "size": "XS",
+        "color": "Marigold Yellow",
+        "stock": 4
+      },
+      {
+        "id": "v_23_2",
+        "size": "S",
+        "color": "Marigold Yellow",
+        "stock": 12
+      },
+      {
+        "id": "v_23_3",
+        "size": "M",
+        "color": "Marigold Yellow",
+        "stock": 15
+      },
+      {
+        "id": "v_23_4",
+        "size": "L",
+        "color": "Marigold Yellow",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Chanderi Silk-Cotton",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_024",
+    "slug": "royal-indigo-jamdani-khadi-cotton-fusion-dress",
+    "name": "Royal Indigo Jamdani Khadi Cotton Fusion Dress",
+    "description": "A stunning presentational Fusion Dress celebrating the legacy of Jamdani Hand-Weave hailing from Dhaka, Bengal. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 33900,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_24_1",
+        "size": "XS",
+        "color": "Royal Indigo",
+        "stock": 4
+      },
+      {
+        "id": "v_24_2",
+        "size": "S",
+        "color": "Royal Indigo",
+        "stock": 1
+      },
+      {
+        "id": "v_24_3",
+        "size": "M",
+        "color": "Royal Indigo",
+        "stock": 15
+      },
+      {
+        "id": "v_24_4",
+        "size": "L",
+        "color": "Royal Indigo",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Khadi Cotton",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_025",
+    "slug": "forest-moss-banarasi-raw-silk-tunic",
+    "name": "Forest Moss Banarasi Raw Silk Tunic",
+    "description": "A stunning presentational Tunic celebrating the legacy of Banarasi Brocade hailing from Varanasi, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 35000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_25_1",
+        "size": "XS",
+        "color": "Forest Moss",
+        "stock": 0
+      },
+      {
+        "id": "v_25_2",
+        "size": "S",
+        "color": "Forest Moss",
+        "stock": 12
+      },
+      {
+        "id": "v_25_3",
+        "size": "M",
+        "color": "Forest Moss",
+        "stock": 15
+      },
+      {
+        "id": "v_25_4",
+        "size": "L",
+        "color": "Forest Moss",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Raw Silk",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_026",
+    "slug": "ivory-cream-kanchipuram-tussar-silk-maxi-dress",
+    "name": "Ivory Cream Kanchipuram Tussar Silk Maxi Dress",
+    "description": "A stunning presentational Maxi Dress celebrating the legacy of Kanchipuram Silk Weaving hailing from Kanchipuram, Tamil Nadu. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 36100,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_26_1",
+        "size": "XS",
+        "color": "Ivory Cream",
+        "stock": 4
+      },
+      {
+        "id": "v_26_2",
+        "size": "S",
+        "color": "Ivory Cream",
+        "stock": 12
+      },
+      {
+        "id": "v_26_3",
+        "size": "M",
+        "color": "Ivory Cream",
+        "stock": 15
+      },
+      {
+        "id": "v_26_4",
+        "size": "L",
+        "color": "Ivory Cream",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Tussar Silk",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_027",
+    "slug": "rose-coral-chanderi-organza-ready-to-wear-suit",
+    "name": "Rose Coral Chanderi Organza Ready-to-Wear Suit",
+    "description": "A stunning presentational Ready-to-Wear Suit celebrating the legacy of Chanderi Hand-Loom hailing from Chanderi, Madhya Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 37200,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_27_1",
+        "size": "XS",
+        "color": "Rose Coral",
+        "stock": 4
+      },
+      {
+        "id": "v_27_2",
+        "size": "S",
+        "color": "Rose Coral",
+        "stock": 12
+      },
+      {
+        "id": "v_27_3",
+        "size": "M",
+        "color": "Rose Coral",
+        "stock": 15
+      },
+      {
+        "id": "v_27_4",
+        "size": "L",
+        "color": "Rose Coral",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Organza",
+    "productStory": {
+      "technique": "Chanderi Hand-Loom",
+      "origin": "Chanderi, Madhya Pradesh",
+      "description": "Woven with fine pure silk and cotton, creating a sheer, translucent texture. Celebrated for its lightweight utility, narrow gold borders, and delicate hand-woven buttis (motifs)."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_028",
+    "slug": "crimson-vermilion-ajrakh-kora-silk-saree",
+    "name": "Crimson Vermilion Ajrakh Kora Silk Saree",
+    "description": "A stunning presentational Saree celebrating the legacy of Ajrakh Block Print hailing from Bhuj, Gujarat. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 38300,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_28_1",
+        "size": "XS",
+        "color": "Crimson Vermilion",
+        "stock": 4
+      },
+      {
+        "id": "v_28_2",
+        "size": "S",
+        "color": "Crimson Vermilion",
+        "stock": 1
+      },
+      {
+        "id": "v_28_3",
+        "size": "M",
+        "color": "Crimson Vermilion",
+        "stock": 15
+      },
+      {
+        "id": "v_28_4",
+        "size": "L",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_029",
+    "slug": "brass-gold-chikankari-mulmul-cotton-kurta-set",
+    "name": "Brass Gold Chikankari Mulmul Cotton Kurta Set",
+    "description": "A stunning presentational Kurta Set celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 39400,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_29_1",
+        "size": "XS",
+        "color": "Brass Gold",
+        "stock": 4
+      },
+      {
+        "id": "v_29_2",
+        "size": "S",
+        "color": "Brass Gold",
+        "stock": 12
+      },
+      {
+        "id": "v_29_3",
+        "size": "M",
+        "color": "Brass Gold",
+        "stock": 15
+      },
+      {
+        "id": "v_29_4",
+        "size": "L",
+        "color": "Brass Gold",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Mulmul Cotton",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_030",
+    "slug": "marigold-yellow-jamdani-chanderi-silk-cotton-anarkali-set",
+    "name": "Marigold Yellow Jamdani Chanderi Silk-Cotton Anarkali Set",
+    "description": "A stunning presentational Anarkali Set celebrating the legacy of Jamdani Hand-Weave hailing from Dhaka, Bengal. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 40500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_30_1",
+        "size": "XS",
+        "color": "Marigold Yellow",
+        "stock": 0
+      },
+      {
+        "id": "v_30_2",
+        "size": "S",
+        "color": "Marigold Yellow",
+        "stock": 12
+      },
+      {
+        "id": "v_30_3",
+        "size": "M",
+        "color": "Marigold Yellow",
+        "stock": 15
+      },
+      {
+        "id": "v_30_4",
+        "size": "L",
+        "color": "Marigold Yellow",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Chanderi Silk-Cotton",
+    "productStory": {
+      "technique": "Jamdani Hand-Weave",
+      "origin": "Dhaka, Bengal",
+      "description": "A centuries-old discontinuous supplementary weft technique, woven by hand on fine cotton or silk. It resembles tapestry work and is historically celebrated as one of the most artistic textile crafts in South Asia."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_031",
+    "slug": "royal-indigo-banarasi-khadi-cotton-fusion-dress",
+    "name": "Royal Indigo Banarasi Khadi Cotton Fusion Dress",
+    "description": "A stunning presentational Fusion Dress celebrating the legacy of Banarasi Brocade hailing from Varanasi, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 41600,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_31_1",
+        "size": "XS",
+        "color": "Royal Indigo",
+        "stock": 4
+      },
+      {
+        "id": "v_31_2",
+        "size": "S",
+        "color": "Royal Indigo",
+        "stock": 12
+      },
+      {
+        "id": "v_31_3",
+        "size": "M",
+        "color": "Royal Indigo",
+        "stock": 15
+      },
+      {
+        "id": "v_31_4",
+        "size": "L",
+        "color": "Royal Indigo",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Khadi Cotton",
+    "productStory": {
+      "technique": "Banarasi Brocade",
+      "origin": "Varanasi, Uttar Pradesh",
+      "description": "Woven with fine silk and gold or silver metallic threads (Zari). It features intricate Persian-inspired floral motifs, foliate designs, and heavy brocade work historically worn by royalty."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_032",
+    "slug": "forest-moss-kanchipuram-raw-silk-tunic",
+    "name": "Forest Moss Kanchipuram Raw Silk Tunic",
+    "description": "A stunning presentational Tunic celebrating the legacy of Kanchipuram Silk Weaving hailing from Kanchipuram, Tamil Nadu. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 42700,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_32_1",
+        "size": "XS",
+        "color": "Forest Moss",
+        "stock": 4
+      },
+      {
+        "id": "v_32_2",
+        "size": "S",
+        "color": "Forest Moss",
+        "stock": 1
+      },
+      {
+        "id": "v_32_3",
+        "size": "M",
+        "color": "Forest Moss",
+        "stock": 15
+      },
+      {
+        "id": "v_32_4",
+        "size": "L",
+        "color": "Forest Moss",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Raw Silk",
+    "productStory": {
+      "technique": "Kanchipuram Silk Weaving",
+      "origin": "Kanchipuram, Tamil Nadu",
+      "description": "Distinguished by its heavy silk and contrast borders, woven with a three-shuttle loom and jointed using the Petni technique. The zari borders represent traditional temple architectures."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_033",
+    "slug": "ivory-cream-chanderi-tussar-silk-maxi-dress",
+    "name": "Ivory Cream Chanderi Tussar Silk Maxi Dress",
+    "description": "A stunning presentational Maxi Dress celebrating the legacy of Chanderi Hand-Loom hailing from Chanderi, Madhya Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 43800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_33_1",
+        "size": "XS",
+        "color": "Ivory Cream",
+        "stock": 4
+      },
+      {
+        "id": "v_33_2",
+        "size": "S",
+        "color": "Ivory Cream",
+        "stock": 12
+      },
+      {
+        "id": "v_33_3",
+        "size": "M",
+        "color": "Ivory Cream",
+        "stock": 15
+      },
+      {
+        "id": "v_33_4",
+        "size": "L",
+        "color": "Ivory Cream",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Tussar Silk",
+    "productStory": {
+      "technique": "Chanderi Hand-Loom",
+      "origin": "Chanderi, Madhya Pradesh",
+      "description": "Woven with fine pure silk and cotton, creating a sheer, translucent texture. Celebrated for its lightweight utility, narrow gold borders, and delicate hand-woven buttis (motifs)."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_034",
+    "slug": "rose-coral-ajrakh-organza-ready-to-wear-suit",
+    "name": "Rose Coral Ajrakh Organza Ready-to-Wear Suit",
+    "description": "A stunning presentational Ready-to-Wear Suit celebrating the legacy of Ajrakh Block Print hailing from Bhuj, Gujarat. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 44900,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1610030469983-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_34_1",
+        "size": "XS",
+        "color": "Rose Coral",
+        "stock": 4
+      },
+      {
+        "id": "v_34_2",
+        "size": "S",
+        "color": "Rose Coral",
+        "stock": 12
+      },
+      {
+        "id": "v_34_3",
+        "size": "M",
+        "color": "Rose Coral",
+        "stock": 15
+      },
+      {
+        "id": "v_34_4",
+        "size": "L",
+        "color": "Rose Coral",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Festive", "Occasion"],
+    "fabric": "Organza",
+    "productStory": {
+      "technique": "Ajrakh Block Print",
+      "origin": "Bhuj, Gujarat",
+      "description": "A complex, 16-stage hand-block printing technique using natural mineral and vegetable dyes. It represents mathematical symmetry and cosmic indigo-madder astronomy patterns."
+    },
+    "stockStatus": "in_stock",
+    "category": "women"
+  },
+  {
+    "id": "prod_035",
+    "slug": "crimson-vermilion-chikankari-kora-silk-saree",
+    "name": "Crimson Vermilion Chikankari Kora Silk Saree",
+    "description": "A stunning presentational Saree celebrating the legacy of Chikankari Hand-Embroidery hailing from Lucknow, Uttar Pradesh. Tailored with double-line stitching, high-end seam finishes, and absolute attention to drape.",
+    "price": {
+      "amount": 46000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_35_1",
+        "size": "XS",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      },
+      {
+        "id": "v_35_2",
+        "size": "S",
+        "color": "Crimson Vermilion",
+        "stock": 12
+      },
+      {
+        "id": "v_35_3",
+        "size": "M",
+        "color": "Crimson Vermilion",
+        "stock": 15
+      },
+      {
+        "id": "v_35_4",
+        "size": "L",
+        "color": "Crimson Vermilion",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Daywear", "Occasion"],
+    "fabric": "Kora Silk",
+    "productStory": {
+      "technique": "Chikankari Hand-Embroidery",
+      "origin": "Lucknow, Uttar Pradesh",
+      "description": "Delicate, shadow-work hand-embroidery historically patronized by Avadh nawabs. Features exquisite white-work thread structures on sheer mulmul and georgette canvasses."
+    },
+    "stockStatus": "low_stock",
+    "category": "women"
+  }
+]

@@ -52,8 +52,6 @@ const SearchPage = () => lazyWithSuspense(() => import('src/pages/SearchPage'));
 const EditPage = () => lazyWithSuspense(() => import('src/pages/EditPage'));
 const NotFoundPage = () =>
   lazyWithSuspense(() => import('src/pages/NotFoundPage'));
-const ApiPreviewPage = () =>
-  lazyWithSuspense(() => import('src/pages/dev/ApiPreviewPage'));
 
 // Lazy loaded dev preview components (relocated to dev-only routes)
 const TokenPreview = () =>
@@ -128,7 +126,6 @@ export const router = createBrowserRouter([
   { path: '/dev/tokens', element: <TokenPreview /> },
   { path: '/dev/components', element: <ComponentPreview /> },
   { path: '/dev/shared', element: <SharedComponentPreview /> },
-  { path: '/dev/api', element: <ApiPreviewPage /> },
 ]);
 
 export function AppRouter() {
