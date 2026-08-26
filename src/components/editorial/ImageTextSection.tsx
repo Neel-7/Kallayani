@@ -14,9 +14,9 @@ export interface ImageTextSectionProps extends React.HTMLAttributes<HTMLDivEleme
 }
 
 /**
- * ImageTextSection is a highly reusable, flexible content module per §12.
- * It is used to render both the premium "Editorial Story Block" (large variant)
- * and the sleek "Brand Story Strip" (compact variant) by configuring layout orientation (reverse option) and size weights.
+ * ImageTextSection is a premium, flexible editorial content module per §12, PART A, and PART B.
+ * Implements Bodoni Moda (font-display) display serif, with sharp corner images (rounded-none)
+ * to achieve premium visual contrast against soft-rounded surfaces.
  */
 export function ImageTextSection({
   image,
@@ -41,10 +41,10 @@ export function ImageTextSection({
       )}
       {...props}
     >
-      {/* Visual Image half */}
+      {/* Visual Image half - rounded-none sharp contrast on photography per PART B */}
       <div
         className={cn(
-          'relative overflow-hidden rounded-soft bg-muted-surface shrink-0',
+          'relative overflow-hidden rounded-none bg-muted-surface shrink-0',
           isLarge
             ? 'w-full md:w-1/2 aspect-[4/3] md:aspect-[16/10]'
             : 'w-full md:w-[45%] aspect-[16/10] md:aspect-[21/9]'
@@ -53,17 +53,16 @@ export function ImageTextSection({
         <img
           src={image}
           alt={title}
-          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 hover:scale-[1.02]"
+          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 hover:scale-[1.02] rounded-none"
         />
       </div>
 
       {/* Content description half */}
       <div className="flex flex-col justify-center flex-1 space-y-[16px] md:space-y-[24px]">
-        {/* Subtle decorative identifier */}
         <div className="space-y-[8px] md:space-y-[12px]">
           <h2
             className={cn(
-              'font-bold tracking-tight text-primary-text leading-tight text-balance',
+              'font-display font-semibold tracking-tight text-primary-text leading-tight text-balance',
               isLarge ? 'text-heading-md md:text-heading-lg' : 'text-body-lg md:text-heading-sm'
             )}
           >

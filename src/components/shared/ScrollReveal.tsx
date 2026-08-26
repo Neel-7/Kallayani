@@ -3,14 +3,17 @@ import { cn } from 'src/lib/utils';
 
 export interface ScrollRevealProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
+  delay?: number; // Optional delay in milliseconds to support staggered/cascading entries
 }
 
 /**
- * ScrollReveal applies standard, subtle fade-in-up motion cues on scroll per §24.
- * Integrates flawlessly with native prefers-reduced-motion media settings to bypass
- * animations for consumers with motion sensitivities.
+ * ScrollReveal applies standard, subtle fade-in-up motion cues on scroll per §24 and PART E.
+ * Integrates native prefers-reduced-motion media settings to bypass animations.
+ *
+ * NOTE: Refactored transition to a crisp, cinematic 500ms duration with support for delay
+ * offsets, allowing cascading animations for sibling layouts.
  */
-export function ScrollReveal({ children, className, ...props }: ScrollRevealProps) {
+export function ScrollReveal({ children, delay, className, ...props }: ScrollRevealProps) {
   // 1. Instantly reveal and bypass transition if user prefers reduced motion synchronously on mount
   const [isVisible, setIsVisible] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -53,12 +56,16 @@ export function ScrollReveal({ children, className, ...props }: ScrollRevealProp
     <div
       ref={elementRef}
       className={cn(
-        'transition-all duration-1000 ease-out',
+        'transition-all duration-500 ease-out',
         isVisible
           ? 'opacity-100 translate-y-0'
-          : 'opacity-0 translate-y-[24px] motion-reduce:opacity-100 motion-reduce:translate-y-0 motion-reduce:transition-none',
+          : 'opacity-0 translate-y-[16px] motion-reduce:opacity-100 motion-reduce:translate-y-0 motion-reduce:transition-none',
         className
       )}
+      style={{
+        transitionDelay: isVisible && delay ? `${delay}ms` : undefined,
+        ...props.style,
+      }}
       {...props}
     >
       {children}

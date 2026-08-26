@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { cn } from 'src/lib/utils';
 
-export type BadgeStatus = 'new' | 'low_stock' | 'out_of_stock';
+export type BadgeStatus = 'new' | 'low_stock' | 'out_of_stock' | 'fine_jewelry';
 
 export interface StockBadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   status: BadgeStatus | null;
@@ -30,6 +30,8 @@ export function StockBadge({ className, status, ...props }: StockBadgeProps) {
             status === 'low_stock',
           'bg-secondary/10 text-secondary border-secondary/20':
             status === 'new',
+          'bg-tertiary/15 text-tertiary border-tertiary/30':
+            status === 'fine_jewelry',
         },
         className,
       )}
@@ -38,6 +40,7 @@ export function StockBadge({ className, status, ...props }: StockBadgeProps) {
       {status === 'out_of_stock' && 'Sold Out'}
       {status === 'low_stock' && 'Low Stock'}
       {status === 'new' && 'New in'}
+      {status === 'fine_jewelry' && 'Fine Jewelry'}
     </span>
   );
 }

@@ -1,6 +1,7 @@
-// PLACEHOLDER — final typeface TBD per blueprint §36
+// Considered brand choice (Fashion Didone direction) per blueprint §36 & DESIGN_AUDIT.md.
+// Chosen for dramatic high-contrast stroke weights and refined editorial visual scale.
 export const fontFamilies = {
-  display: '"Source Serif 4", Georgia, serif',
+  display: '"Bodoni Moda", "Playfair Display", Georgia, serif',
   sans: '"Inter", system-ui, sans-serif',
 } as const;
 

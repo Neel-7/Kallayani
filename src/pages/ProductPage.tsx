@@ -127,7 +127,7 @@ export default function ProductPage() {
   };
 
   return (
-    <Container className="py-[48px] space-y-[64px]">
+    <Container className="py-[48px]">
       {/* 1. Breadcrumbs Nav & Main Detail layout */}
       <div className="space-y-[24px]">
         <Breadcrumbs
@@ -259,20 +259,21 @@ export default function ProductPage() {
         </div>
       </div>
 
-      {/* 2. Product Story Block (Craftsmanship details) */}
-      <div className="space-y-[20px]">
+      {/* 2. Product Story Block (Craftsmanship details) - Spacing: mt-[64px] md:mt-[80px] (generous spacing before storytelling) */}
+      <div className="mt-[64px] md:mt-[80px] space-y-[20px]">
         <h3 className="text-heading-sm font-display font-semibold tracking-wide text-primary-text">
           Craftsmanship Details
         </h3>
         <CraftsmanshipBlock
+          isJewelry={product.category === 'jewelry'}
           craftTechnique={product.productStory.craftTechnique}
           regionalOrigin={product.productStory.regionalOrigin}
           description={product.productStory.description}
         />
       </div>
 
-      {/* 3. Specs Details & Care grids */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] border-t border-border/40 pt-[48px]">
+      {/* 3. Specs Details & Care grids - Spacing: mt-[48px] md:mt-[64px] (moderate gap) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] border-t border-border/40 pt-[48px] mt-[48px] md:mt-[64px]">
         <div className="space-y-[12px]">
           <h4 className="text-body-sm font-bold uppercase tracking-wider text-primary">
             Garment Specifications
@@ -301,9 +302,9 @@ export default function ProductPage() {
         </div>
       </div>
 
-      {/* 4. Related Products Grid */}
+      {/* 4. Related Products Grid - Spacing: mt-[80px] md:mt-[96px] (even more generous spacing before cross-sell) */}
       {relatedProducts.length > 0 && (
-        <div className="space-y-[24px] border-t border-border/40 pt-[48px]">
+        <div className="space-y-[24px] border-t border-border/40 pt-[48px] mt-[80px] md:mt-[96px]">
           <h3 className="text-heading-sm font-display font-bold text-primary-text">
             Related Collections
           </h3>

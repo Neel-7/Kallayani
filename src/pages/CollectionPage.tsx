@@ -23,6 +23,7 @@ import {
   type SortKey,
 } from 'src/features/catalog/catalogSlice';
 import { useCollectionFilters } from 'src/features/catalog/useCollectionFilters';
+import { cn } from 'src/lib/utils';
 import { useAppDispatch } from 'src/store/hooks';
 
 export default function CollectionPage() {
@@ -90,7 +91,7 @@ export default function CollectionPage() {
   };
 
   return (
-    <Container className="py-[48px] space-y-[32px]">
+    <Container className="py-[48px]">
       {/* Editorial Header Section */}
       <header className="space-y-[16px] border-b border-border/60 pb-[24px]">
         <Breadcrumbs items={breadcrumbItems} />
@@ -121,7 +122,8 @@ export default function CollectionPage() {
       </header>
 
       {/* Main PLP Workspace Container */}
-      <div className="flex flex-col lg:flex-row gap-[32px] items-start">
+      <div className="flex flex-col lg:flex-row gap-[32px] items-start mt-[48px] md:mt-[64px]">
+        {' '}
         {/* Left Side Filters Sidebar rail (collapses to Sheet on mobile) */}
         <FilterPanel
           activeFilters={activeFilters}
@@ -129,26 +131,40 @@ export default function CollectionPage() {
           onRemoveFilter={handleRemoveFilter}
           onClearAll={handleClearAll}
         />
-
         {/* Right Side Grid Workspace */}
         <div className="flex-1 min-w-0 w-full space-y-[24px]">
           {/* Controls Header Row: Active Chips list & Right aligned SortDropdown */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-[16px]">
             {/* Active Chips List */}
             <div className="flex flex-wrap items-center gap-[8px]">
-              {activeFilters.map((chip) => (
-                <button
-                  key={`${chip.type}-${chip.value}`}
-                  onClick={() => handleRemoveFilter(chip)}
-                  className="inline-flex items-center gap-[6px] px-[12px] py-[6px] bg-muted-surface text-caption font-semibold rounded-soft border border-border text-foreground hover:bg-border/60 transition-colors cursor-pointer select-none"
-                  aria-label={`Remove filter: ${chip.value}`}
-                >
-                  <span>{chip.value}</span>
-                  <span className="text-muted-foreground font-bold hover:text-foreground">
-                    ×
-                  </span>
-                </button>
-              ))}
+              {activeFilters.map((chip) => {
+                const isJewelryChip =
+                  chip.value.toLowerCase() === 'jewelry' ||
+                  chip.value.toLowerCase() === 'brass gold';
+                return (
+                  <button
+                    key={`${chip.type}-${chip.value}`}
+                    onClick={() => handleRemoveFilter(chip)}
+                    className={cn(
+                      'inline-flex items-center gap-[6px] px-[12px] py-[6px] text-caption font-semibold rounded-soft border transition-colors cursor-pointer select-none',
+                      isJewelryChip
+                        ? 'bg-tertiary/10 text-tertiary border-tertiary/20 hover:bg-tertiary/20'
+                        : 'bg-muted-surface text-foreground border-border hover:bg-border/60'
+                    )}
+                    aria-label={`Remove filter: ${chip.value}`}
+                  >
+                    <span>{chip.value}</span>
+                    <span
+                      className={cn(
+                        'font-bold hover:text-foreground',
+                        isJewelryChip ? 'text-tertiary/80' : 'text-muted-foreground'
+                      )}
+                    >
+                      ×
+                    </span>
+                  </button>
+                );
+              })}
               {activeFilters.length > 0 && (
                 <Button
                   variant="link"

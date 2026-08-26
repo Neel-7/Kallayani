@@ -10,6 +10,7 @@ import { AnnouncementBar } from 'src/components/shared/AnnouncementBar';
 import { Container } from 'src/components/shared/Container';
 import { ScrollReveal } from 'src/components/shared/ScrollReveal';
 import { SectionHeading } from 'src/components/shared/SectionHeading';
+import { ThreadDivider } from 'src/components/shared/ThreadDivider';
 import { Skeleton } from 'src/components/ui/skeleton';
 
 export default function HomePage() {
@@ -42,11 +43,16 @@ export default function HomePage() {
         />
       </ScrollReveal>
 
-      {/* Main Grid-Aligned Container for downstream sections */}
-      <Container className="py-[64px] md:py-[96px] space-y-[80px] md:space-y-[120px]">
-        {/* 3. Shop by Department 3-Tile Block (§12.4) */}
-        <ScrollReveal>
-          <section className="space-y-[24px]">
+      {/* 3. Signature Cultural Touchpoint: ThreadDivider as quiet transition marker per PART F */}
+      <Container className="pt-[16px] md:pt-[24px]">
+        <ThreadDivider color="primary" className="max-w-[320px] mx-auto opacity-50" />
+      </Container>
+
+      {/* Main Container - Spacing rhythm is varied manually at each child element to fix undifferentiated audit finding per PART D */}
+      <Container className="pb-[96px] md:pb-[144px]">
+        {/* 4. Shop by Department 3-Tile Block (§12.4) - Spacing: mt-[48px] md:mt-[64px] (tighter spacing to Hero) */}
+        <ScrollReveal delay={100}>
+          <section className="mt-[48px] md:mt-[64px] space-y-[24px]">
             <SectionHeading
               title="Shop by Department"
               description="Explore curated collections spanning high fashion, sculptural sterling jewelry, and comfort-driven interior spaces."
@@ -56,10 +62,9 @@ export default function HomePage() {
           </section>
         </ScrollReveal>
 
-        {/* 4. New Arrivals Grid (§12.5) */}
-        <section className="space-y-[32px] md:space-y-[48px]">
-          {/* ScrollReveal ONLY applies to heading element, explicitly avoiding individual cards */}
-          <ScrollReveal>
+        {/* 5. New Arrivals Grid (§12.5) - Spacing: mt-[80px] md:mt-[96px] (moderate segment gap) */}
+        <section className="mt-[80px] md:mt-[96px] space-y-[32px] md:space-y-[48px]">
+          <ScrollReveal delay={150}>
             <SectionHeading
               title="The Autumn Vernacular"
               description="Fresh arrivals from South Asia's historic artisanal pockets. Subtle hand-spun textures tailored for lightweight elegance."
@@ -78,14 +83,13 @@ export default function HomePage() {
               ))}
             </div>
           ) : (
-            /* ProductGrid remains flat per §24 guidelines to avoid rendering lag or scroll-jank */
             <ProductGrid products={newArrivals} />
           )}
         </section>
 
-        {/* 5. Editorial Story Block (§12.6) */}
-        <ScrollReveal>
-          <section>
+        {/* 6. Editorial Story Block (§12.6) - Spacing: mt-[96px] md:mt-[120px] (generous break before big editorial story) */}
+        <ScrollReveal delay={200}>
+          <section className="mt-[96px] md:mt-[120px]">
             <ImageTextSection
               variant="large"
               image="https://images.unsplash.com/photo-1544816155-12df9643f363?w=1000&auto=format&fit=crop&q=80"
@@ -97,8 +101,8 @@ export default function HomePage() {
           </section>
         </ScrollReveal>
 
-        {/* 6. Featured Collection Section (§12.7) */}
-        <section>
+        {/* 7. Featured Collection Section (§12.7) - Spacing: mt-[80px] md:mt-[96px] (moderate gap) */}
+        <section className="mt-[80px] md:mt-[96px]">
           {isLoading ? (
             <div className="space-y-[32px] animate-pulse">
               <Skeleton className="h-[36px] w-[320px]" />
@@ -119,10 +123,12 @@ export default function HomePage() {
           )}
         </section>
 
-        {/* 7. Seasonal Occasions / Campaign Banner (§12.8) */}
-        <ScrollReveal>
-          <section>
+        {/* 8. Seasonal Festive Campaign Banner (§12.8) - Spacing: mt-[120px] md:mt-[160px] (massive block gap for dramatic visual shift) */}
+        {/* Rendered as variant="festive" (using secondary wine background per PART C) */}
+        <ScrollReveal delay={100}>
+          <section className="mt-[120px] md:mt-[160px]">
             <CampaignBanner
+              variant="festive"
               image="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1200&auto=format&fit=crop&q=80"
               title="The Festive Heritage Curation"
               subtitle="Adorn yourself in heavy gold zari borders, luxury brocades, and vibrant organic dyes tailored for autumnal galas and intimate weddings."
@@ -133,9 +139,9 @@ export default function HomePage() {
           </section>
         </ScrollReveal>
 
-        {/* 8. Brand Story Strip (§12.9) */}
-        <ScrollReveal>
-          <section>
+        {/* 9. Brand Story Strip (§12.9) - Spacing: mt-[80px] md:mt-[96px] (moderate gap) */}
+        <ScrollReveal delay={150}>
+          <section className="mt-[80px] md:mt-[96px]">
             <ImageTextSection
               variant="compact"
               reverse
@@ -148,9 +154,9 @@ export default function HomePage() {
           </section>
         </ScrollReveal>
 
-        {/* 9. Newsletter Email Capture (§12.10) */}
-        <ScrollReveal>
-          <section className="pt-[16px] md:pt-[32px]">
+        {/* 10. Newsletter Email Capture (§12.10) - Spacing: mt-[120px] md:mt-[160px] (massive gap before footer closeout) */}
+        <ScrollReveal delay={200}>
+          <section className="mt-[120px] md:mt-[160px] pt-[16px] md:pt-[32px]">
             <NewsletterCapture />
           </section>
         </ScrollReveal>

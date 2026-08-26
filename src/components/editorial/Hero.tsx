@@ -13,8 +13,9 @@ export interface HeroProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 /**
- * Reusable full-bleed Hero component for premium editorial placement per §12.
- * Adapts beautifully across responsive device viewports, scaling font sizes and copy volume gracefully.
+ * Hero is re-architected per PART B and DESIGN_AUDIT.md.
+ * Sit within a floating, shadow-drawer elevated card layout offset downward/leftward on desktop.
+ * Utilizes the brand-new Bodoni Moda display serif (font-display) and token-compliant sizing.
  */
 export function Hero({
   image,
@@ -29,36 +30,42 @@ export function Hero({
   return (
     <div
       className={cn(
-        'relative w-full h-[60vh] md:h-[80vh] min-h-[480px] md:min-h-[640px] bg-muted-surface overflow-hidden flex items-center justify-center font-sans',
+        'relative w-full h-[65vh] md:h-[80vh] min-h-[500px] md:min-h-[640px] bg-muted-surface font-sans overflow-visible mb-[48px] md:mb-[64px]',
         className
       )}
       {...props}
     >
-      {/* Background Image with subtle zoom/scale */}
-      <div className="absolute inset-0 select-none pointer-events-none">
+      {/* Background Image - sharp edge format for photography contrast per PART B */}
+      <div className="absolute inset-0 select-none pointer-events-none rounded-none overflow-hidden">
         <img
           src={image}
           alt={headline}
-          className="w-full h-full object-cover object-center scale-[1.02]"
+          className="w-full h-full object-cover object-center scale-[1.02] rounded-none"
         />
-        {/* Soft, premium dark scrim for text readability */}
-        <div className={cn('absolute inset-0 bg-black/40', overlayClassName)} />
+        {/* Soft, optional dark scrim overlay - fallback opacity for rich ambient contrast */}
+        <div className={cn('absolute inset-0 bg-black/10', overlayClassName)} />
       </div>
 
-      {/* Content Container */}
-      <div className="relative z-10 w-full max-w-[1200px] mx-auto px-[24px] md:px-[40px] text-center space-y-[24px] text-white">
-        <div className="space-y-[12px] max-w-[800px] mx-auto">
-          <h1 className="text-heading-lg md:text-heading-xl font-bold tracking-tight leading-[1.1] text-balance">
-            {headline}
-          </h1>
-          <p className="text-body-sm md:text-body-md text-white/90 max-w-[560px] mx-auto text-balance leading-relaxed">
-            {subhead}
-          </p>
-        </div>
-        <div className="pt-[8px]">
-          <Button asChild size="lg" className="bg-white text-black hover:bg-white/90 rounded-soft font-semibold px-[36px] h-[48px] md:h-[54px] text-body-sm shadow-md transition-all hover:scale-[1.02] active:scale-[0.98]">
-            <Link to={ctaHref}>{ctaLabel}</Link>
-          </Button>
+      {/* Floating Content Card - Aligned left/bottom and floating partially off-edge per PART B */}
+      <div className="relative z-10 w-full max-w-[1200px] mx-auto h-full px-[24px] md:px-[40px] flex items-center md:items-end justify-center md:justify-start">
+        <div className="w-full max-w-[480px] bg-surface text-foreground p-[32px] md:p-[48px] rounded-soft shadow-drawer border border-border/40 space-y-[20px] text-center md:text-left transform md:translate-y-[48px] md:translate-x-[-16px]">
+          <div className="space-y-[12px]">
+            <h1 className="text-display-lg md:text-display-xl font-display font-semibold tracking-tighter leading-[1.05] text-primary-text text-balance">
+              {headline}
+            </h1>
+            <p className="text-body-sm md:text-body-md text-muted-foreground leading-relaxed text-balance">
+              {subhead}
+            </p>
+          </div>
+          <div className="pt-[4px]">
+            <Button
+              asChild
+              size="lg"
+              className="w-full md:w-auto bg-primary text-surface hover:bg-primary-text rounded-soft font-semibold px-[32px] h-[48px] md:h-[52px] text-body-sm shadow-sm transition-all hover:scale-[1.01]"
+            >
+              <Link to={ctaHref}>{ctaLabel}</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

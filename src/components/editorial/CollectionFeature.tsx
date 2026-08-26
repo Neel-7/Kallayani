@@ -19,8 +19,8 @@ export interface CollectionFeatureProps extends React.HTMLAttributes<HTMLDivElem
  * CollectionFeature displays curated catalogs with context-rich headers per §12.
  * Reuses SectionHeading and ProductGrid.
  *
- * NOTE: ScrollReveal is applied ONLY to the heading block, explicitly bypassing
- * individual cards inside ProductGrid to satisfy section §24 mandates.
+ * NOTE: Refactored per PART B to apply 'shadow-drawer' elevation card format
+ * to the header block, with the brand display serif applied inside SectionHeading.
  */
 export function CollectionFeature({
   title,
@@ -34,7 +34,7 @@ export function CollectionFeature({
   return (
     <div className={cn('space-y-[32px] md:space-y-[48px] font-sans', className)} {...props}>
       <ScrollReveal>
-        <header className="flex flex-col md:flex-row md:items-end justify-between gap-[24px]">
+        <header className="flex flex-col md:flex-row md:items-end justify-between gap-[24px] bg-surface p-[32px] md:p-[48px] rounded-soft shadow-drawer border border-border/40">
           <div className="max-w-[640px]">
             <SectionHeading
               title={title}

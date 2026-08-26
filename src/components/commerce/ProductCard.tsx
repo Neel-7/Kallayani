@@ -25,12 +25,15 @@ export const ProductCard = React.forwardRef<HTMLDivElement, ProductCardProps>(
     // Resolve stock badge status based on priority order:
     // 1. out_of_stock
     // 2. low_stock
-    // 3. new (check if occasionTags contain 'new' or product id is fresh, otherwise fallback)
+    // 3. fine_jewelry (for jewelry category products per PART C)
+    // 4. new (check if occasionTags contain 'new' or product id is fresh, otherwise fallback)
     let badgeStatus: BadgeStatus | null = null;
     if (product.stockStatus === 'out_of_stock') {
       badgeStatus = 'out_of_stock';
     } else if (product.stockStatus === 'low_stock') {
       badgeStatus = 'low_stock';
+    } else if (product.category === 'jewelry') {
+      badgeStatus = 'fine_jewelry';
     } else if (
       product.occasionTags.some(
         (tag) =>

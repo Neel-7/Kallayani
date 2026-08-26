@@ -1,22 +1,25 @@
 import * as React from 'react';
+import { ThreadDivider } from 'src/components/shared/ThreadDivider';
 import { cn } from 'src/lib/utils';
 
 export interface CraftsmanshipBlockProps extends React.HTMLAttributes<HTMLDivElement> {
   craftTechnique: string;
   regionalOrigin: string;
   description: string;
+  isJewelry?: boolean;
 }
 
 /**
- * CraftsmanshipBlock is an editorial component located in src/components/editorial/ per §14.
- * Represents premium artisanal storytelling content, fully decoupled from PDP layout dependencies
- * so that it can easily be reused inside editorial story journals or index essays later.
+ * CraftsmanshipBlock is an editorial storytelling block per §14.
+ * Integrates 'ThreadDivider' beneath the technique/craft title in 'tertiary' (brass)
+ * to evoke gold-thread heritage without literal ornament per PART C and PART F.
  */
 export function CraftsmanshipBlock({
   className,
   craftTechnique,
   regionalOrigin,
   description,
+  isJewelry = false,
   ...props
 }: CraftsmanshipBlockProps) {
   return (
@@ -34,7 +37,16 @@ export function CraftsmanshipBlock({
         <h3 className="text-heading-sm font-display text-primary-text font-bold leading-tight">
           {craftTechnique}
         </h3>
-        <p className="text-caption text-muted-foreground tracking-wide uppercase font-mono font-medium">
+
+        {/* 1. Signature Cultural Touchpoint: ThreadDivider beneath craftsmanship heading per PART F */}
+        <ThreadDivider color="tertiary" className="my-[12px] max-w-[120px]" />
+
+        {/* 2. Optional subtle fine brass underline/accent block when isJewelry is true per PART C */}
+        {isJewelry && (
+          <div className="w-[40px] h-[1.5px] bg-tertiary mt-[4px]" />
+        )}
+
+        <p className="text-caption text-muted-foreground tracking-wide uppercase font-mono font-medium pt-[4px]">
           Origin: {regionalOrigin}
         </p>
       </div>
