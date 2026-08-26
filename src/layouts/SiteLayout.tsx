@@ -108,7 +108,7 @@ export function SiteLayout() {
               className="lg:hidden"
               aria-label="Open Menu Stub"
             >
-              <Menu className="h-5 w-5" />
+              <Menu className="h-16 w-16" />
             </Button>
 
             <Button
@@ -118,7 +118,7 @@ export function SiteLayout() {
               aria-label="Search Catalog"
             >
               <Link to="/search">
-                <Search className="h-5 w-5" />
+                <Search className="h-16 w-16" />
               </Link>
             </Button>
 
@@ -129,7 +129,7 @@ export function SiteLayout() {
               aria-label="Your Account"
             >
               <Link to="/account">
-                <User className="h-5 w-5" />
+                <User className="h-16 w-16" />
               </Link>
             </Button>
 
@@ -140,7 +140,7 @@ export function SiteLayout() {
               aria-label="Your Wishlist"
             >
               <Link to="/wishlist">
-                <Heart className="h-5 w-5" />
+                <Heart className="h-16 w-16" />
               </Link>
             </Button>
 
@@ -151,9 +151,9 @@ export function SiteLayout() {
               className="relative"
               aria-label={`Open shopping bag, contains ${itemCount} items`}
             >
-              <ShoppingBag className="h-5 w-5" />
+              <ShoppingBag className="h-16 w-16" />
               {itemCount > 0 && (
-                <span className="absolute top-[2px] right-[2px] h-4 w-4 rounded-full bg-primary text-[10px] font-bold text-surface flex items-center justify-center font-mono animate-pulse">
+                <span className="absolute top-[2px] right-[2px] h-16 w-16 rounded-full bg-primary text-[10px] font-bold text-surface flex items-center justify-center font-mono animate-pulse">
                   {itemCount}
                 </span>
               )}

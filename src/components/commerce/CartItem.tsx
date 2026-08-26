@@ -57,7 +57,7 @@ export function CartItem({
               className="text-muted-foreground hover:text-error transition-colors p-[4px] cursor-pointer"
               aria-label={`Remove ${product.name} from bag`}
             >
-              <Trash2 className="h-4 w-4" />
+              <Trash2 className="h-16 w-16" />
             </button>
           </div>
           <p className="text-caption text-muted-foreground font-mono">
@@ -75,7 +75,7 @@ export function CartItem({
               className="px-[8px] py-[6px] text-muted-foreground hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
               aria-label="Decrease quantity"
             >
-              <Minus className="h-3.5 w-3.5" />
+              <Minus className="h-16 w-16" />
             </button>
             <span className="px-[12px] text-body-sm font-semibold font-mono select-none">
               {quantity}
@@ -86,7 +86,7 @@ export function CartItem({
               className="px-[8px] py-[6px] text-muted-foreground hover:text-foreground disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
               aria-label="Increase quantity"
             >
-              <Plus className="h-3.5 w-3.5" />
+              <Plus className="h-16 w-16" />
             </button>
           </div>
 

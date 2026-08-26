@@ -35,7 +35,7 @@ export function AnnouncementBar({
         aria-label="Dismiss Announcement"
         className="text-white/80 hover:text-white hover:bg-white/10 p-[4px] rounded-soft transition-colors shrink-0"
       >
-        <X className="h-4 w-4" />
+        <X className="h-16 w-16" />
       </button>
     </div>
   );

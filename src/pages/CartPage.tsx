@@ -101,7 +101,7 @@ export default function CartPage() {
                     }
                     className="p-0 h-auto text-caption font-semibold text-primary flex items-center gap-[6px]"
                   >
-                    <Heart className="h-3.5 w-3.5" /> Move to Wishlist
+                    <Heart className="h-16 w-16" /> Move to Wishlist
                   </Button>
                 }
               />
@@ -113,7 +113,7 @@ export default function CartPage() {
             {/* Promo Code Input Field Box */}
             <div className="p-[24px] rounded-soft border border-border/60 bg-surface space-y-[12px] shadow-sm">
               <h4 className="text-body-sm font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-[6px]">
-                <Sparkles className="h-4 w-4" /> Promotional Coupon
+                <Sparkles className="h-16 w-16" /> Promotional Coupon
               </h4>
               <p className="text-caption text-muted-foreground">
                 Enter code{' '}

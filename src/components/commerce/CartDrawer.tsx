@@ -41,7 +41,7 @@ export function CartDrawer() {
       >
         <SheetHeader className="p-[24px] border-b border-border/40 text-left">
           <SheetTitle className="font-display text-primary text-heading-sm flex items-center gap-[8px]">
-            <ShoppingBag className="h-5 w-5" /> Your Shopping Bag (
+            <ShoppingBag className="h-24 w-24" /> Your Shopping Bag (
             {hydratedItems.length})
           </SheetTitle>
           <SheetDescription className="text-caption">
@@ -129,7 +129,7 @@ export function CartDrawer() {
                 className="w-full h-[48px] text-body-sm font-semibold bg-primary hover:bg-primary-text text-surface flex items-center justify-center gap-[8px]"
               >
                 <Link to="/checkout">
-                  Proceed to Checkout <ArrowRight className="h-4 w-4" />
+                  Proceed to Checkout <ArrowRight className="h-16 w-16" />
                 </Link>
               </Button>
               <Button

@@ -62,7 +62,7 @@ export function WishlistButton({
       >
         <Heart
           className={cn(
-            'h-5 w-5 transition-colors',
+            'h-16 w-16 transition-colors',
             active ? 'fill-primary text-primary' : 'text-foreground',
           )}
         />
@@ -83,7 +83,7 @@ export function WishlistButton({
     >
       <Heart
         className={cn(
-          'h-4 w-4 transition-colors',
+          'h-16 w-16 transition-colors',
           active
             ? 'fill-primary text-primary'
             : 'text-muted-foreground hover:text-foreground',

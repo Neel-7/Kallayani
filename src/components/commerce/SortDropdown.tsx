@@ -33,7 +33,7 @@ export function SortDropdown({ currentSort, onSortChange }: SortDropdownProps) {
           className="flex items-center gap-[8px] min-w-[180px] justify-between"
         >
           <span className="flex items-center gap-[8px] text-body-sm">
-            <ArrowUpDown className="h-4 w-4 text-muted-foreground" />
+            <ArrowUpDown className="h-16 w-16 text-muted-foreground" />
             Sort:{' '}
             <span className="font-semibold text-foreground">
               {SORT_LABELS[currentSort]}

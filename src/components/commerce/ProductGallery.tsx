@@ -103,7 +103,7 @@ export function ProductGallery({
               className="absolute left-[16px] top-1/2 -translate-y-1/2 p-[8px] rounded-full bg-surface/80 hover:bg-surface border border-border/40 shadow-sm z-10 transition-colors cursor-pointer"
               aria-label="Previous gallery image"
             >
-              <ChevronLeft className="h-5 w-5 text-foreground" />
+              <ChevronLeft className="h-24 w-24 text-foreground" />
             </button>
 
             {/* Right Selector Arrow */}
@@ -112,7 +112,7 @@ export function ProductGallery({
               className="absolute right-[16px] top-1/2 -translate-y-1/2 p-[8px] rounded-full bg-surface/80 hover:bg-surface border border-border/40 shadow-sm z-10 transition-colors cursor-pointer"
               aria-label="Next gallery image"
             >
-              <ChevronRight className="h-5 w-5 text-foreground" />
+              <ChevronRight className="h-24 w-24 text-foreground" />
             </button>
 
             {/* Pagination Dots (Mobile Indicator) */}
@@ -122,8 +122,8 @@ export function ProductGallery({
                   key={idx}
                   onClick={() => onIndexChange(idx)}
                   className={cn(
-                    'h-2 w-2 rounded-full transition-all cursor-pointer',
-                    idx === activeIndex ? 'bg-primary w-4' : 'bg-surface/60',
+                    'h-8 w-8 rounded-full transition-all cursor-pointer',
+                    idx === activeIndex ? 'bg-primary w-16' : 'bg-surface/60',
                   )}
                   aria-label={`Select gallery slide ${idx + 1}`}
                 />

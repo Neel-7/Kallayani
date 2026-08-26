@@ -132,13 +132,13 @@ export function FilterPanel({
                     >
                       <div
                         className={cn(
-                          'h-4 w-4 rounded border border-border flex items-center justify-center transition-colors',
+                          'h-16 w-16 rounded border border-border flex items-center justify-center transition-colors',
                           checked
                             ? 'bg-primary border-primary text-surface'
                             : 'bg-transparent',
                         )}
                       >
-                        {checked && <Check className="h-3 w-3 stroke-[3]" />}
+                        {checked && <Check className="h-12 w-12 stroke-[3]" />}
                       </div>
                       <span
                         className={cn(
@@ -172,13 +172,13 @@ export function FilterPanel({
                     >
                       <div
                         className={cn(
-                          'h-4 w-4 rounded border border-border flex items-center justify-center transition-colors',
+                          'h-16 w-16 rounded border border-border flex items-center justify-center transition-colors',
                           checked
                             ? 'bg-primary border-primary text-surface'
                             : 'bg-transparent',
                         )}
                       >
-                        {checked && <Check className="h-3 w-3 stroke-[3]" />}
+                        {checked && <Check className="h-12 w-12 stroke-[3]" />}
                       </div>
                       <span
                         className={cn(
@@ -212,13 +212,13 @@ export function FilterPanel({
                     >
                       <div
                         className={cn(
-                          'h-4 w-4 rounded border border-border flex items-center justify-center transition-colors',
+                          'h-16 w-16 rounded border border-border flex items-center justify-center transition-colors',
                           checked
                             ? 'bg-primary border-primary text-surface'
                             : 'bg-transparent',
                         )}
                       >
-                        {checked && <Check className="h-3 w-3 stroke-[3]" />}
+                        {checked && <Check className="h-12 w-12 stroke-[3]" />}
                       </div>
                       <span
                         className={cn(
@@ -252,13 +252,13 @@ export function FilterPanel({
                     >
                       <div
                         className={cn(
-                          'h-4 w-4 rounded border border-border flex items-center justify-center transition-colors',
+                          'h-16 w-16 rounded border border-border flex items-center justify-center transition-colors',
                           checked
                             ? 'bg-primary border-primary text-surface'
                             : 'bg-transparent',
                         )}
                       >
-                        {checked && <Check className="h-3 w-3 stroke-[3]" />}
+                        {checked && <Check className="h-12 w-12 stroke-[3]" />}
                       </div>
                       <span
                         className={cn(
@@ -296,7 +296,7 @@ export function FilterPanel({
             variant="outline"
             className="w-full flex items-center gap-[8px] justify-center"
           >
-            <SlidersHorizontal className="h-4 w-4" />
+            <SlidersHorizontal className="h-16 w-16" />
             Filter Products{' '}
             {activeFilters.length > 0 && `(${activeFilters.length})`}
           </Button>

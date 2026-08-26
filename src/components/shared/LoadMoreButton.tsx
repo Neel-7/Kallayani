@@ -52,7 +52,7 @@ export const LoadMoreButton = React.forwardRef<
             <span className="flex items-center justify-center gap-[8px]">
               {/* Spinner icon */}
               <svg
-                className="animate-spin h-4 w-4 text-current"
+                className="animate-spin h-16 w-16 text-current"
                 fill="none"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

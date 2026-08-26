@@ -33,7 +33,7 @@ export function ConfirmationStep({ orderNumber }: ConfirmationStepProps) {
   return (
     <div className="text-center py-[24px] space-y-[24px] max-w-[480px] mx-auto select-none">
       <div className="flex flex-col items-center gap-[12px]">
-        <CheckCircle2 className="h-16 w-16 text-success animate-bounce" />
+        <CheckCircle2 className="h-64 w-64 text-success animate-bounce" />
         <h3 className="text-heading-lg font-display text-primary-text font-bold">
           Order Confirmed
         </h3>
@@ -51,26 +51,21 @@ export function ConfirmationStep({ orderNumber }: ConfirmationStepProps) {
         <span className="block text-body-md font-mono font-bold text-foreground">
           {orderNumber}
         </span>
-        <span className="block text-caption text-muted-foreground pt-[4px]">
-          A tracking receipt and package summary has been sent to your email.
-        </span>
       </div>
 
-      {/* Account Creation Stub Option (M18/M19) */}
-      <div className="border border-border rounded-soft p-[16px] text-left space-y-[12px]">
-        <h4 className="text-body-sm font-semibold">
-          Save your details for later?
+      {/* Member account creation panel banner */}
+      <div className="p-[24px] bg-surface border border-border/60 rounded-soft space-y-[12px] shadow-sm">
+        <h4 className="text-body-sm font-bold uppercase tracking-wider text-primary-text">
+          Track couture journey
         </h4>
-        <p className="text-caption text-muted-foreground">
-          Create an account using your checkout information to speed up future
-          purchases, manage address books, and track packages in real-time.
+        <p className="text-caption text-muted-foreground leading-relaxed">
+          Register for a member account to track weaver progress, view dispatch status,
+          and save curated couture favorites.
         </p>
         <Button
-          variant="outline"
-          className="w-full text-caption h-[36px] font-semibold hover:bg-muted-surface border-border/80"
           onClick={() =>
             alert(
-              'Account Sign-up Stub triggered. Real signup will be implemented in M18/M19.',
+              'Account creation flow is under construction. Thank you for your patience.',
             )
           }
         >
@@ -85,7 +80,7 @@ export function ConfirmationStep({ orderNumber }: ConfirmationStepProps) {
         className="w-full h-[48px] bg-primary text-surface font-semibold hover:bg-primary-text flex items-center justify-center gap-[8px]"
       >
         <Link to="/women">
-          Continue Shopping <ArrowRight className="h-4 w-4" />
+          Continue Shopping <ArrowRight className="h-16 w-16" />
         </Link>
       </Button>
     </div>
