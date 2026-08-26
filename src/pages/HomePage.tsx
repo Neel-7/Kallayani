@@ -142,7 +142,7 @@ export default function HomePage() {
               subtitle="Adorn yourself in heavy gold zari borders, luxury brocades, and vibrant organic dyes tailored for autumnal galas and intimate weddings."
               tagline="Bespoke Autumn Release"
               ctaLabel="Discover Festive Edit"
-              ctaHref="/festive"
+              ctaHref="/festive/durga-puja"
             />
           </section>
         </ScrollReveal>

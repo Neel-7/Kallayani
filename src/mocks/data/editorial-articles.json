@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "the-art-of-discontinuous-weft",
+    "title": "The Art of the Discontinuous Weft: A Jamdani Memoir",
+    "dek": "Traced back to ancient Byzantine and Mughal dynasties, Jamdani weaving is a rare supplementary weft technique done entirely from memory.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=1200&auto=format&fit=crop&q=80",
+      "alt": "Master weaver hands adjusting supplementary weft threads on a wooden pit loom."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "The air in Dhaka’s weaver cluster is thick with the scent of raw starch and seasoned teakwood. Here, discontinuous weft weaving—known universally as Jamdani—is not merely a manufacturing step. It is a meditative, generational choreography of index fingers and tiny bamboo splints called kandis."
+      },
+      {
+        "type": "heading",
+        "text": "Woven Air: The Historical Weight of Jamdani",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Historically described by Roman chroniclers as 'woven air' (textilis ventus), Jamdani was reserved for royal houses and administrative elites. The weave is unique because it combines a standard translucent ground thread with opaque, thicker supplementary threads. Each motif is laid into the loom by hand, knot by knot, thread by thread, without any mechanical assistance."
+      },
+      {
+        "type": "pullquote",
+        "text": "Jamdani is not a repeating mechanical sequence; it is a musical score played by hand, completely from the weaver's mind.",
+        "attribution": "Abdur Rahman, Master Weaver of Sonargaon"
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+        "alt": "Close-up of a sheer ivory Jamdani shawl showcasing floating paisley motifs.",
+        "caption": "The sheer Jamdani weave showcases structural contrast between fine translucent ground and heavy opaque thread patterns."
+      },
+      {
+        "type": "heading",
+        "text": "The Mathematical Poetry of the Loom",
+        "level": 3
+      },
+      {
+        "type": "paragraph",
+        "text": "A single saree can take two weavers up to six months to complete. The pattern layout is rarely drawn on paper; instead, the weavers follow a verbal shorthand of mathematical counts handed down through centuries of song and verse."
+      }
+    ],
+    "relatedProductIds": ["prod_001", "jew_001", "prod_002"],
+    "publishedAt": "August 20, 2026"
+  },
+  {
+    "slug": "cuttack-filigree-silver-metaphor",
+    "title": "Chasing Shadows: The Filigree Masterpieces of Cuttack",
+    "dek": "For over five hundred years, Odisha's silver filigree artisans have turned thick silver ingots into gossamer metallic lacework.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80",
+      "alt": "Ornate silver filigree jhumkas and necklaces reflecting light."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "In the labyrinthine alleys of Cuttack, a rhythmic hammering cuts through the early morning fog. Here, silversmiths are engaging in 'Tarakasi'—the ancient art of silver filigree. What begins as a heavy block of pure silver is drawn through successively narrower dies until it becomes a thread thinner than human hair."
+      },
+      {
+        "type": "heading",
+        "text": "Bending Metal Like Silk",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Filigree represents a rare union of metallurgy and design sensitivity. Two silver wire lines are twisted together, flattened, and then painstakingly hand-coiled into tiny frames to create leaves, flowers, and geometric lattices. When heat is applied, the solder joins the micro-joints without filling the negative spaces, preserving the delicate, lace-like transparency."
+      },
+      {
+        "type": "pullquote",
+        "text": "A silver thread has no strength on its own. Only when bent and bound to its neighbor does it become a resilient, shadow-casting lattice.",
+        "attribution": "Radhashyam Maharana, Chaser of Odisha"
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "alt": "A master silversmith assembling tiny twisted wires using long copper tweezers.",
+        "caption": "Precision tweezers are used to position micro-spirals of twisted silver wire within heavy solid borders before soldering."
+      }
+    ],
+    "relatedProductIds": ["jew_001", "jew_003"],
+    "publishedAt": "August 15, 2026"
+  },
+  {
+    "slug": "preservation-of-zari-tradition",
+    "title": "Gold-Wrapped Lineages: Inside Varanasi's Zari Workshops",
+    "dek": "Real zari is a dying craft of wrapped silver wires with heavy gold plating. We step inside the traditional workshops keeping it alive.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1590736969955-71cb91d3376d?w=1200&auto=format&fit=crop&q=80",
+      "alt": "Brilliant gold zari threads spooled on traditional wooden bobbins."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Varanasi's legendary brocades owe their brilliance to one element: real zari. Unlike polyester-imitation lurex, genuine Kalabattu zari is a composite thread. It features a silk core tightly wrapped with a flattened silver wire ribbon, which is then electroplated with 24-karat gold liquid."
+      },
+      {
+        "type": "heading",
+        "text": "The Gold Plating Ritual",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Inside the high-ceilinged atelier, a gold liquid bath bubbles. Flattened silver-wrapped threads are guided through the solution at a controlled pace. If the pull is too fast, the gold layer is thin and dull; if too slow, the silver stiffens and becomes brittle. The artisan's ears detect the spool's frequency to judge the thickness."
+      },
+      {
+        "type": "pullquote",
+        "text": "Imitation gold shines with loud, mechanical indifference. Real gold zari possesses a quiet, breathing warmth that darkens and gains character with age.",
+        "attribution": "Maqbool Hasan, National Heritage Awardee"
+      }
+    ],
+    "relatedProductIds": ["prod_002", "jew_002"],
+    "publishedAt": "August 10, 2026"
+  },
+  {
+    "slug": "vegetable-dyes-monsoon-palette",
+    "title": "Monsoon Indigo: The Scent and Shadow of Fermented Indigo Vat",
+    "dek": "How mud, sun, and organic fermentation combine to produce high-contrast, living blue pigments that evolve over time.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1590736969955-71cb91d3376d?w=1200&auto=format&fit=crop&q=80",
+      "alt": "Draped folds of hand-dyed indigo textiles hanging to dry in the sun."
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "An active indigo vat smells earthy and slightly sweet—a living ecosystem of organic fermentation. In an age of synthetic coal-tar dyes, organic fermented indigo remains a sacred art, relying on lime, jaggery, and crushed Indigofera Tinctoria leaves to yield deep, skin-safe colors."
+      },
+      {
+        "type": "heading",
+        "text": "The Dip and Air Dance",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "When fabric is submerged in an active indigo vat, it emerges not blue, but a pale, luminous yellow-green. Only when the oxygen in the fresh air reacts with the liquid on the fibers does the magic occur: it oxidizes, transforming right before your eyes from lime green to rich indigo blue."
+      }
+    ],
+    "relatedProductIds": ["prod_001"],
+    "publishedAt": "August 02, 2026"
+  }
+]

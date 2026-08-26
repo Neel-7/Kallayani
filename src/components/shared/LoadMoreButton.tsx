@@ -83,3 +83,5 @@ export const LoadMoreButton = React.forwardRef<
 );
 
 LoadMoreButton.displayName = 'LoadMoreButton';
+
+export default LoadMoreButton;

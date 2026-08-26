@@ -1,0 +1,557 @@
+[
+  {
+    "id": "dec_001",
+    "slug": "hand-block-printed-organic-cotton-bedspread",
+    "name": "Hand-Block Printed Organic Cotton Bedspread",
+    "description": "A magnificent hand-pressed organic cotton bedspread, printed with natural vegetable dyes by master artisans.",
+    "price": {
+      "amount": 14500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_001_1",
+        "size": "Queen",
+        "color": "Indigo Blue",
+        "stock": 10
+      },
+      {
+        "id": "v_dec_001_2",
+        "size": "King",
+        "color": "Indigo Blue",
+        "stock": 6
+      }
+    ],
+    "occasionTags": ["Heritage", "Occasion"],
+    "fabric": "100% Organic Cotton",
+    "productStory": {
+      "craftTechnique": "Ajrakh Hand-Block Printing",
+      "regionalOrigin": "Bhuj, Gujarat",
+      "description": "An ancient, multi-stage block printing technique using wooden blocks and natural mineral/vegetable dyes, culminating in deep, complex geometric patterns."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_002",
+    "slug": "bespoke-hand-thrown-ceramic-vase",
+    "name": "Bespoke Hand-Thrown Ceramic Vase",
+    "description": "A tall, textured ceramic centerpiece with a matte-earth glaze, hand-shaped on traditional potter wheels.",
+    "price": {
+      "amount": 7500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_002_1",
+        "size": "OS",
+        "color": "Matte Terracotta",
+        "stock": 5
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Stone Ceramics",
+    "productStory": {
+      "craftTechnique": "Pottery Wheel Throwing",
+      "regionalOrigin": "Khurja, Uttar Pradesh",
+      "description": "Hand-shaped from high-density regional clays, fired at extreme temperatures and glazed with local minerals to produce unique tactile finishes."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_003",
+    "slug": "banarasi-gold-zari-brocade-cushion-cover",
+    "name": "Banarasi Gold Zari Brocade Cushion Cover",
+    "description": "A luxury silk cushion cover featuring opulent hand-woven gold zari floral borders in traditional shikargah brocade.",
+    "price": {
+      "amount": 5500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_003_1",
+        "size": "16x16",
+        "color": "Gold Silk Crimson",
+        "stock": 15
+      },
+      {
+        "id": "v_dec_003_2",
+        "size": "18x18",
+        "color": "Gold Silk Crimson",
+        "stock": 12
+      }
+    ],
+    "occasionTags": ["Festive", "Heritage", "Bridal"],
+    "fabric": "Silk & Gold Zari",
+    "productStory": {
+      "craftTechnique": "Kadhwa Brocade Weaving",
+      "regionalOrigin": "Varanasi, Uttar Pradesh",
+      "description": "An intense, discontinuous weft weaving technique where each floral motif is individually woven by hand onto sheer silk backings using gold-coated silver wires."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_004",
+    "slug": "mysore-rosewood-inlay-incense-box",
+    "name": "Mysore Rosewood Inlay Incense Box",
+    "description": "An elaborately crafted rosewood incense drawer, detailed with fine hand-cut bone inlay scrolls.",
+    "price": {
+      "amount": 9500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_004_1",
+        "size": "OS",
+        "color": "Dark Rosewood",
+        "stock": 4
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Mysore Rosewood",
+    "productStory": {
+      "craftTechnique": "Tarkashi Bone Inlay",
+      "regionalOrigin": "Mysore, Karnataka",
+      "description": "Highly skilled woodwork where deep grooves are carved into seasoned rosewood and then precisely filled with hand-chiseled ethically sourced bone plates."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_005",
+    "slug": "hand-woven-mirzapur-dhurrie-rug",
+    "name": "Hand-Woven Mirzapur Dhurrie Rug",
+    "description": "A heavy wool-blend flat-weave dhurrie rug displaying organic grey and charcoal geometric bands.",
+    "price": {
+      "amount": 19500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_005_1",
+        "size": "4x6 ft",
+        "color": "Organic Charcoal",
+        "stock": 2
+      },
+      {
+        "id": "v_dec_005_2",
+        "size": "5x8 ft",
+        "color": "Organic Charcoal",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Heritage", "Occasion"],
+    "fabric": "80% Wool, 20% Cotton",
+    "productStory": {
+      "craftTechnique": "Flat-Weave Dhurrie",
+      "regionalOrigin": "Mirzapur, Uttar Pradesh",
+      "description": "Hand-loomed flat weaving of coarse wool on heavy vertical looms. It represents one of northern India's oldest and most durable flooring arts."
+    },
+    "stockStatus": "low_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_006",
+    "slug": "hand-painted-patachitra-lacquer-tray",
+    "name": "Hand-Painted Patachitra Lacquer Tray",
+    "description": "A premium round wooden serving tray, hand-painted with mythological narratives by heritage Patachitra artists and sealed with deep gloss lacquer.",
+    "price": {
+      "amount": 8500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_006_1",
+        "size": "14 inch",
+        "color": "Sienna Red",
+        "stock": 6
+      }
+    ],
+    "occasionTags": ["Gifts", "Heritage"],
+    "fabric": "Mango Wood & Lacquer",
+    "productStory": {
+      "craftTechnique": "Patachitra Enameling",
+      "regionalOrigin": "Raghurajpur, Odisha",
+      "description": "Traditional scroll painters manually apply mineral colors and organic pigments onto cotton-wood boards, finalized with natural resin gloss overlays."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_007",
+    "slug": "luxury-linen-table-runner-set",
+    "name": "Luxury Linen Table Runner Set",
+    "description": "A heavy flax linen table runner with delicate ivory white hand-kantha running stitches along raw borders, including 6 matching table napkins.",
+    "price": {
+      "amount": 11000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_007_1",
+        "size": "72 inch",
+        "color": "Natural Flax",
+        "stock": 8
+      },
+      {
+        "id": "v_dec_007_2",
+        "size": "90 inch",
+        "color": "Natural Flax",
+        "stock": 4
+      }
+    ],
+    "occasionTags": ["Festive", "Gifts"],
+    "fabric": "100% Flax Linen",
+    "productStory": {
+      "craftTechnique": "Kantha Border Stitching",
+      "regionalOrigin": "Santiniketan, Bengal",
+      "description": "Heritage running needlework practiced by rural Bengal cooperatives, turning plain organic linens into dense, textured masterpieces."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_008",
+    "slug": "artisanal-bell-metal-singing-bowl",
+    "name": "Artisanal Bell-Metal Singing Bowl",
+    "description": "An authentic, hand-beaten bell-metal acoustic singing bowl, finished with raw chisel stripes and wooden mallet set.",
+    "price": {
+      "amount": 6800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_008_1",
+        "size": "OS",
+        "color": "Hammered Bronze",
+        "stock": 10
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Bell-Metal Bronze",
+    "productStory": {
+      "craftTechnique": "Hammered Metal Casting",
+      "regionalOrigin": "Kerala Highlands",
+      "description": "Manual cold-beating of traditional bronze alloys (copper-tin mix) until achieving precise acoustic and physical surface alignments."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_009",
+    "slug": "contemporary-blue-pottery-planter",
+    "name": "Contemporary Blue Pottery Planter",
+    "description": "An elegant low-rim desktop planter hand-shaped from non-clay glazed dough, featuring royal blue floral spirals.",
+    "price": {
+      "amount": 4800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_009_1",
+        "size": "6 inch",
+        "color": "Cobalt White",
+        "stock": 18
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Quartz Glazed Dough",
+    "productStory": {
+      "craftTechnique": "Jaipur Blue Pottery",
+      "regionalOrigin": "Jaipur, Rajasthan",
+      "description": "A unique ceramic art that uses no clay; instead, planters are constructed from quartz, raw glass, and gum, fired at low heats and hand-painted with cobalt oxides."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_010",
+    "slug": "heritage-brass-nandi-centerpiece",
+    "name": "Heritage Brass Nandi Centerpiece",
+    "description": "A magnificent hand-cast solid brass Nandi figurine, highlighting ancient wax-mold chiseling and soft dark patinas.",
+    "price": {
+      "amount": 12500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_010_1",
+        "size": "OS",
+        "color": "Patinized Brass",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Heritage", "Festive"],
+    "fabric": "Solid Casting Brass",
+    "productStory": {
+      "craftTechnique": "Lost-Wax Brass Casting",
+      "regionalOrigin": "Bastad, Chhattisgarh",
+      "description": "Traditional wax-mold casting process where artisans build wax shapes over clay cores, melt the wax out, and fill the hollow structure with molten golden brass."
+    },
+    "stockStatus": "low_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_011",
+    "slug": "luxury-banarasi-silk-runner",
+    "name": "Luxury Banarasi Silk Runner",
+    "description": "A grand table runner woven in pure silk and rich gold zari brocade, perfect for creating an opulent festive dining setup.",
+    "price": {
+      "amount": 8800,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_011_1",
+        "size": "72 inch",
+        "color": "Gold Royal Emerald",
+        "stock": 4
+      }
+    ],
+    "occasionTags": ["Festive", "Heritage"],
+    "fabric": "Pure Silk & Zari",
+    "productStory": {
+      "craftTechnique": "Brocade Loom Weaving",
+      "regionalOrigin": "Varanasi, Uttar Pradesh",
+      "description": "Discontinuous supplementary weft gold wire strings individually mapped across fine mulberry silk bases on traditional vertical hand-looms."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_012",
+    "slug": "bespoke-hand-thrown-terracotta-carafe",
+    "name": "Bespoke Hand-Thrown Terracotta Carafe",
+    "description": "An elegant organic terracotta carafe set with 2 matching cups, hand-shaped and low-fired for raw liquid cooling properties.",
+    "price": {
+      "amount": 4500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_012_1",
+        "size": "OS",
+        "color": "Sienna Earth",
+        "stock": 20
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Organic Clay Terracotta",
+    "productStory": {
+      "craftTechnique": "Organic Clay Throwing",
+      "regionalOrigin": "Alwar, Rajasthan",
+      "description": "Hand-turned on local kickwheels using fine mineral silts, low-fired in wood chambers to preserve raw porous surface properties."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_013",
+    "slug": "filigree-brass-hanging-lantern",
+    "name": "Filigree Brass Hanging Lantern",
+    "description": "An exotic hanging lantern displaying hand-punched star and floral lattice screens on solid antiqued brass surfaces.",
+    "price": {
+      "amount": 9500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_013_1",
+        "size": "Medium",
+        "color": "Antiqued Gold",
+        "stock": 8
+      },
+      {
+        "id": "v_dec_013_2",
+        "size": "Large",
+        "color": "Antiqued Gold",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Festive", "Gifts"],
+    "fabric": "Perforated Sheet Brass",
+    "productStory": {
+      "craftTechnique": "Lattice Punchwork",
+      "regionalOrigin": "Moradabad, Uttar Pradesh",
+      "description": "Manual hammering of iron punch dies onto golden brass sheets to trace complex Islamic-Mughal star lattices, finished with antique chemical darkeners."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_014",
+    "slug": "carved-sheesham-jewelry-chest",
+    "name": "Carved Sheesham Jewelry Chest",
+    "description": "A majestic four-drawer desktop chest hand-carved in solid sheesham wood with brass loop handles and secret compartments.",
+    "price": {
+      "amount": 11500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_014_1",
+        "size": "OS",
+        "color": "Antique Sheesham",
+        "stock": 4
+      }
+    ],
+    "occasionTags": ["Gifts", "Heritage"],
+    "fabric": "Sheesham Hardwood",
+    "productStory": {
+      "craftTechnique": "Wood Relief Carving",
+      "regionalOrigin": "Saranpur, Uttar Pradesh",
+      "description": "Hand-carved solid sheesham wood patterns showcasing floral scroll relief layers, completed with traditional beeswax coating."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  },
+  {
+    "id": "dec_015",
+    "slug": "hand-block-printed-indigo-quilts",
+    "name": "Hand-Block Printed Indigo Quilt",
+    "description": "A luxury summer quilt filled with organic cotton card drapes, hand-block printed on natural ivory mull cotton using living indigo vat dyes.",
+    "price": {
+      "amount": 16500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_dec_015_1",
+        "size": "Queen",
+        "color": "Fermented Indigo",
+        "stock": 5
+      }
+    ],
+    "occasionTags": ["Heritage", "Festive"],
+    "fabric": "100% Cotton Mull",
+    "productStory": {
+      "craftTechnique": "Ajrakh Resist Block Printing",
+      "regionalOrigin": "Bhuj, Gujarat",
+      "description": "Wooden hand blocks imprint starch-mud resist pastes before repeated submersions into active fermented indigo vats, yielding breathable organic blue cotton textiles."
+    },
+    "stockStatus": "in_stock",
+    "category": "home"
+  }
+]

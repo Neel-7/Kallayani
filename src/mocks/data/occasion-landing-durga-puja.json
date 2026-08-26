@@ -1,0 +1,23 @@
+{
+  "slug": "durga-puja",
+  "title": "The Durga Puja Edit",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=1600&auto=format&fit=crop&q=80",
+    "alt": "A vibrant celebration backdrop draped in rich traditional handcrafted silks and floral decorations."
+  },
+  "intro": "As the rhythmic beats of the dhak announce the arrival of the festival, we unveil a sanctuary of sartorial devotion. This edit is a dedicated curatorial tribute to festive heritage—combining the sheer mathematical poetry of hand-loomed sarees with the deep, shadow-casting brilliance of Odishan silver and Rajasthani brassware.",
+  "featuredSections": [
+    {
+      "heading": "The Festive Drape: Ancestral Hand-Looms",
+      "productIds": ["prod_001", "prod_002"]
+    },
+    {
+      "heading": "Heritage Silver & Brass Ornamentation",
+      "productIds": ["jew_001", "jew_002", "jew_003"]
+    },
+    {
+      "heading": "Festive Interiors: Sacred Spaces",
+      "productIds": ["dec_003", "dec_010", "dec_011"]
+    }
+  ]
+}

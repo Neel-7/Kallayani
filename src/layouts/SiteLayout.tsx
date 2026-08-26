@@ -1,12 +1,17 @@
 import { Heart, Menu, Search, ShoppingBag, User } from 'lucide-react';
 import { Link, Outlet } from 'react-router-dom';
 import { CartDrawer } from 'src/components/commerce/CartDrawer';
+import { SearchOverlay } from 'src/components/commerce/SearchOverlay';
 import { Container } from 'src/components/shared/Container';
 import { Button } from 'src/components/ui/button';
 import { useCart } from 'src/features/cart/useCart';
+import { useAppDispatch, useAppSelector } from 'src/store/hooks';
+import { setSearchOpen } from 'src/store/slices/uiSlice';
 
 export function SiteLayout() {
+  const dispatch = useAppDispatch();
   const { setOpen, itemCount } = useCart();
+  const isSearchOpen = useAppSelector((state) => state.ui.isSearchOpen);
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground font-sans">
@@ -74,7 +79,7 @@ export function SiteLayout() {
               </li>
               <li>
                 <Link
-                  to="/festive"
+                  to="/festive/durga-puja"
                   className="hover:text-primary transition-colors"
                 >
                   Festive
@@ -114,12 +119,10 @@ export function SiteLayout() {
             <Button
               variant="ghost"
               size="icon"
-              asChild
+              onClick={() => dispatch(setSearchOpen(true))}
               aria-label="Search Catalog"
             >
-              <Link to="/search">
-                <Search className="h-16 w-16" />
-              </Link>
+              <Search className="h-16 w-16" />
             </Button>
 
             <Button
@@ -241,6 +244,9 @@ export function SiteLayout() {
           (Phase 1 / M5).
         </Container>
       </footer>
+
+      {/* Global Predictive Search Dialog Overlay */}
+      {isSearchOpen && <SearchOverlay />}
 
       {/* Global Shopping Cart Sidebar Drawer */}
       <CartDrawer />

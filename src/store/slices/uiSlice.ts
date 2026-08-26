@@ -4,12 +4,14 @@ export interface UiState {
   isCartDrawerOpen: boolean;
   isMobileNavOpen: boolean;
   isWishlistDrawerOpen: boolean;
+  isSearchOpen: boolean;
 }
 
 const initialState: UiState = {
   isCartDrawerOpen: false,
   isMobileNavOpen: false,
   isWishlistDrawerOpen: false,
+  isSearchOpen: false,
 };
 
 export const uiSlice = createSlice({
@@ -31,6 +33,9 @@ export const uiSlice = createSlice({
     setWishlistDrawerOpen: (state, action: PayloadAction<boolean>) => {
       state.isWishlistDrawerOpen = action.payload;
     },
+    setSearchOpen: (state, action: PayloadAction<boolean>) => {
+      state.isSearchOpen = action.payload;
+    },
   },
 });
 
@@ -40,6 +45,7 @@ export const {
   setMobileNavOpen,
   toggleMobileNav,
   setWishlistDrawerOpen,
+  setSearchOpen,
 } = uiSlice.actions;
 
 export default uiSlice.reducer;

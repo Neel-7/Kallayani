@@ -43,6 +43,8 @@ export interface Product {
   productStory: ProductStory;
   stockStatus: StockStatus;
   category: Category;
+  metalType?: string; // Optional jewelry-specific metadata
+  gemstoneType?: string; // Optional jewelry-specific metadata
 }
 
 /**

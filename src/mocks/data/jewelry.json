@@ -1,0 +1,772 @@
+[
+  {
+    "id": "jew_001",
+    "slug": "sculptural-sterling-silver-jhumka-earrings",
+    "name": "Sculptural Sterling Silver Jhumka Earrings",
+    "description": "Hand-chiseled jhumkas in solid sterling silver, displaying ancient filigree work tailored for contemporary styling.",
+    "price": {
+      "amount": 12000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_001_1",
+        "size": "OS",
+        "color": "Silver",
+        "stock": 8
+      }
+    ],
+    "occasionTags": ["Heritage", "Bridal", "Festive"],
+    "fabric": "Sterling Silver",
+    "productStory": {
+      "craftTechnique": "Filigree Chiseling",
+      "regionalOrigin": "Cuttack, Odisha",
+      "description": "A delicate and highly intricate metalwork technique where fine threads of silver are bent and soldered into ornamental patterns by master craftsmen."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_002",
+    "slug": "royal-brass-gold-layered-neck-choker",
+    "name": "Royal Brass Gold Layered Neck Choker",
+    "description": "Exquisite layered choker embellished with gold plating, textured surfaces, and hand-strung glass beads.",
+    "price": {
+      "amount": 24000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_002_1",
+        "size": "OS",
+        "color": "Brass Gold",
+        "stock": 5
+      }
+    ],
+    "occasionTags": ["Festive", "Bridal"],
+    "fabric": "Gold-Plated Brass",
+    "productStory": {
+      "craftTechnique": "Repoussé Beading",
+      "regionalOrigin": "Jaipur, Rajasthan",
+      "description": "Ancient Rajasthani metal ornamentation involving chasing and punchwork on metal sheets, finished with traditional hand-assembled gemstones and beads."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Brass",
+    "gemstoneType": "Beads"
+  },
+  {
+    "id": "jew_003",
+    "slug": "artisanal-hand-carved-silver-bangles-set",
+    "name": "Artisanal Hand-Carved Silver Bangles Set",
+    "description": "A set of four heavy solid silver bangles, elaborately hand-carved with traditional paisley lines and floral borders.",
+    "price": {
+      "amount": 16000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_003_1",
+        "size": "OS",
+        "color": "Silver",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Heritage", "Occasion"],
+    "fabric": "Sterling Silver",
+    "productStory": {
+      "craftTechnique": "Hand-Carving & Oxidization",
+      "regionalOrigin": "Kolhapur, Maharashtra",
+      "description": "Traditional deep carving on thick silver bands, selectively oxidized to produce dark, shadow-casting recesses that highlight the artisan's chisel work."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_004",
+    "slug": "temple-heritage-kemp-ruby-necklace",
+    "name": "Temple Heritage Kemp Ruby Necklace",
+    "description": "A majestic temple-style collar set in raw yellow gold plating, featuring hand-pressed kemp rubies and dangling fresh river pearls.",
+    "price": {
+      "amount": 32000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_004_1",
+        "size": "OS",
+        "color": "Gold Ruby",
+        "stock": 4
+      }
+    ],
+    "occasionTags": ["Heritage", "Bridal"],
+    "fabric": "22K Gold Plated",
+    "productStory": {
+      "craftTechnique": "Kemp Stone Encasing",
+      "regionalOrigin": "Nagercoil, Tamil Nadu",
+      "description": "Traditional South Indian temple ornament craft, where un-cut red gemstones (kemp) are embedded into gold foil backings on thick brass bases."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Gold",
+    "gemstoneType": "Ruby"
+  },
+  {
+    "id": "jew_005",
+    "slug": "filigree-golkonda-chandelier-earrings",
+    "name": "Filigree Golkonda Chandelier Earrings",
+    "description": "Dramatic statement chandelier earrings styled in high-purity silver with layered wire weaves and seed pearl clusters.",
+    "price": {
+      "amount": 14500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_005_1",
+        "size": "OS",
+        "color": "Oxidized Silver",
+        "stock": 10
+      }
+    ],
+    "occasionTags": ["Bridal", "Gifts"],
+    "fabric": "Oxidized Silver",
+    "productStory": {
+      "craftTechnique": "Wire-Weave Filigree",
+      "regionalOrigin": "Karimnagar, Telangana",
+      "description": "A fine art of twisting dual-layer silver threads into delicate flower patterns, finished with natural seed pearls in hanging structures."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "Pearl"
+  },
+  {
+    "id": "jew_006",
+    "slug": "antique-meenakari-peacock-ring",
+    "name": "Antique Meenakari Peacock Ring",
+    "description": "A heavy statement ring featuring brilliant royal blue and emerald green hand-painted enamel peacock feathers on gold-plated sterling silver.",
+    "price": {
+      "amount": 9500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_006_1",
+        "size": "6",
+        "color": "Enamel Blue",
+        "stock": 4
+      },
+      {
+        "id": "v_jew_006_2",
+        "size": "7",
+        "color": "Enamel Blue",
+        "stock": 6
+      },
+      {
+        "id": "v_jew_006_3",
+        "size": "8",
+        "color": "Enamel Blue",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Festive", "Gifts"],
+    "fabric": "Meenakari Silver",
+    "productStory": {
+      "craftTechnique": "Enamel Meenakari",
+      "regionalOrigin": "Varanasi, Uttar Pradesh",
+      "description": "An intricate technique of fusing glass powder onto carved metal recesses at intense temperatures, producing high-gloss gem-like surfaces."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "Enamel"
+  },
+  {
+    "id": "jew_007",
+    "slug": "ancestral-silver-jadau-hair-pin",
+    "name": "Ancestral Silver Jadau Hair Pin",
+    "description": "An elegant hair slide ornament (judapin) crafted in solid silver with gold plating, encrusted with polki glass and hanging glass droplets.",
+    "price": {
+      "amount": 18000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_007_1",
+        "size": "OS",
+        "color": "Gold",
+        "stock": 2
+      }
+    ],
+    "occasionTags": ["Bridal", "Heritage"],
+    "fabric": "Gold-Plated Silver",
+    "productStory": {
+      "craftTechnique": "Jadau Polki Setting",
+      "regionalOrigin": "Bikaner, Rajasthan",
+      "description": "Bespoke jewelry mounting where raw, unfaceted flat diamonds or polki glass are fixed onto soft gold foil backings inside pure silver casings."
+    },
+    "stockStatus": "low_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "Polki Glass"
+  },
+  {
+    "id": "jew_008",
+    "slug": "royal-nizam-pearl-choker",
+    "name": "Royal Nizam Pearl Choker",
+    "description": "A classic seven-row pearl collar secured by hand-woven gold strings and a central floral jade pendant.",
+    "price": {
+      "amount": 29000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_008_1",
+        "size": "OS",
+        "color": "Pearl Jade",
+        "stock": 5
+      }
+    ],
+    "occasionTags": ["Heritage", "Bridal"],
+    "fabric": "Natural Basra Pearls",
+    "productStory": {
+      "craftTechnique": "Pearl Stringing & Jade Carving",
+      "regionalOrigin": "Hyderabad, Telangana",
+      "description": "Expert high-density stringing of graded fresh river pearls, completed with hand-carved natural nephrite jade focal points."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Gold",
+    "gemstoneType": "Pearl"
+  },
+  {
+    "id": "jew_009",
+    "slug": "kolhapuri-oxidized-silver-saaj",
+    "name": "Kolhapuri Oxidized Silver Saaj Necklace",
+    "description": "A traditional Maharashtrian collar featuring 21 small hand-beaten silver amulets representing divine motifs, on an adjustable silk cord.",
+    "price": {
+      "amount": 13500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_009_1",
+        "size": "OS",
+        "color": "Oxidized Silver",
+        "stock": 12
+      }
+    ],
+    "occasionTags": ["Heritage", "Festive"],
+    "fabric": "Oxidized Silver",
+    "productStory": {
+      "craftTechnique": "Repoussé Pressing",
+      "regionalOrigin": "Kolhapur, Maharashtra",
+      "description": "Traditional amulet crafting involving stamping raw silver sheet patterns on die forms, completed with hand-oxidized black finishes for high shadow contrast."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_010",
+    "slug": "theia-minimal-filigree-silver-band",
+    "name": "Theia Minimal Filigree Silver Band",
+    "description": "A lightweight everyday band featuring delicate open-gossamer wire detailing on a polished sterling silver base.",
+    "price": {
+      "amount": 6500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_010_1",
+        "size": "5",
+        "color": "Polished Silver",
+        "stock": 15
+      },
+      {
+        "id": "v_jew_010_2",
+        "size": "6",
+        "color": "Polished Silver",
+        "stock": 20
+      },
+      {
+        "id": "v_jew_010_3",
+        "size": "7",
+        "color": "Polished Silver",
+        "stock": 18
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Sterling Silver",
+    "productStory": {
+      "craftTechnique": "Fine Filigree Laying",
+      "regionalOrigin": "Cuttack, Odisha",
+      "description": "Gossamer twisted silver wire bends placed symmetrically inside standard bezel frames for a contemporary, breathable ring layout."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_011",
+    "slug": "tribal-beaten-silver-torque-necklace",
+    "name": "Tribal Beaten Silver Torque Necklace",
+    "description": "A heavy, sculptural neck collar styled in high-purity hammered sterling silver with simple hook terminals.",
+    "price": {
+      "amount": 21000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_011_1",
+        "size": "OS",
+        "color": "Hammered Silver",
+        "stock": 2
+      }
+    ],
+    "occasionTags": ["Heritage", "Occasion"],
+    "fabric": "925 Pure Silver",
+    "productStory": {
+      "craftTechnique": "Anvil Hammering",
+      "regionalOrigin": "Bhuj, Gujarat",
+      "description": "Hand-forged pure silver rod cold-hammered on metal anvils to achieve raw, facets of light reflections along curved profiles."
+    },
+    "stockStatus": "low_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_012",
+    "slug": "mughal-navratna-gemstone-cuffs",
+    "name": "Mughal Navratna Gemstone Cuff",
+    "description": "A heavy gold-plated hinge bracelet set with nine sacred astrological stones including ruby, emerald, and natural pearls.",
+    "price": {
+      "amount": 34000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_012_1",
+        "size": "OS",
+        "color": "Multi Gold",
+        "stock": 3
+      }
+    ],
+    "occasionTags": ["Heritage", "Bridal"],
+    "fabric": "24K Gold Gilt",
+    "productStory": {
+      "craftTechnique": "Jad Jadau Setting",
+      "regionalOrigin": "Jaipur, Rajasthan",
+      "description": "Master gemstone alignment inside handcrafted golden settings, preserving traditional metaphysical gem order."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Gold",
+    "gemstoneType": "Navratna"
+  },
+  {
+    "id": "jew_013",
+    "slug": "chandi-oxidized-toe-rings-set",
+    "name": "Chandi Oxidized Toe Rings Set",
+    "description": "A set of three traditional adjustable toe rings (bichiya) hand-woven in oxidized solid silver with dot wire margins.",
+    "price": {
+      "amount": 5500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_013_1",
+        "size": "OS",
+        "color": "Oxidized Silver",
+        "stock": 25
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "Sterling Silver",
+    "productStory": {
+      "craftTechnique": "Coiled Wire Craft",
+      "regionalOrigin": "Kolhapur, Maharashtra",
+      "description": "Adjustable bands manually coiled from soft silver thread, featuring black oxidization patterns for traditional accents."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_014",
+    "slug": "carved-nephrite-jade-teardrop-earrings",
+    "name": "Carved Nephrite Jade Teardrop Earrings",
+    "description": "Stunning hanging earrings displaying teardrops of hand-carved natural green nephrite jade suspended from gold-plated silver filigree wires.",
+    "price": {
+      "amount": 16500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_014_1",
+        "size": "OS",
+        "color": "Green Gold",
+        "stock": 7
+      }
+    ],
+    "occasionTags": ["Festive", "Gifts"],
+    "fabric": "Natural Green Jade",
+    "productStory": {
+      "craftTechnique": "Jade Intaglio Carving",
+      "regionalOrigin": "Hyderabad, Telangana",
+      "description": "Exacting lapidary carving of raw nephrite jade minerals, ground and polished into smooth translucent teardrops."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "Jade"
+  },
+  {
+    "id": "jew_015",
+    "slug": "meena-kundankari-royal-studs",
+    "name": "Meena Kundankari Royal Studs",
+    "description": "Heavy, circular floral studs incorporating glass polki stones in traditional kundan settings with green enamel reverse backings.",
+    "price": {
+      "amount": 11000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_015_1",
+        "size": "OS",
+        "color": "Gold Polki",
+        "stock": 0
+      }
+    ],
+    "occasionTags": ["Bridal", "Heritage"],
+    "fabric": "24K Gold Kundan",
+    "productStory": {
+      "craftTechnique": "Kundan Enlaying & Meenakari",
+      "regionalOrigin": "Bikaner, Rajasthan",
+      "description": "Purified hyper-soft gold foil (kundan) compressed manually around glass polki stones, backed with painted vitreous enamel meena art."
+    },
+    "stockStatus": "out_of_stock",
+    "category": "jewelry",
+    "metalType": "Gold",
+    "gemstoneType": "Polki Glass"
+  },
+  {
+    "id": "jew_016",
+    "slug": "royal-nizam-filigree-bangles-set",
+    "name": "Royal Nizam Filigree Bangles Set",
+    "description": "A pair of highly intricate silver-weaved cuffs displaying fine mesh floral windows, plated in gold lacquer.",
+    "price": {
+      "amount": 22000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_016_1",
+        "size": "OS",
+        "color": "Gold",
+        "stock": 5
+      }
+    ],
+    "occasionTags": ["Heritage", "Bridal"],
+    "fabric": "Lacquer-Finished Silver",
+    "productStory": {
+      "craftTechnique": "Mesh Filigree",
+      "regionalOrigin": "Karimnagar, Telangana",
+      "description": "Super-fine silver threads woven into complex structural panels, soldered onto heavy golden cuffs."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_017",
+    "slug": "chandi-oxidized-anklets-payal",
+    "name": "Chandi Oxidized Anklets Set",
+    "description": "Traditional solid silver ankle chains (payal) hand-linked with tiny ball clusters and detailed engraving overlays.",
+    "price": {
+      "amount": 15000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_017_1",
+        "size": "OS",
+        "color": "Oxidized Silver",
+        "stock": 10
+      }
+    ],
+    "occasionTags": ["Heritage", "Festive"],
+    "fabric": "Sterling Silver",
+    "productStory": {
+      "craftTechnique": "Chain-Linking & Chasing",
+      "regionalOrigin": "Cuttack, Odisha",
+      "description": "Solid silver wire links manually locked together, completed with hand-chased floral end clamps."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_018",
+    "slug": "contemporary-twisted-silver-torc-ring",
+    "name": "Contemporary Twisted Silver Torc Ring",
+    "description": "An avant-garde open bypass ring constructed from thick twisted strands of high-shine sterling silver.",
+    "price": {
+      "amount": 7500,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_018_1",
+        "size": "6",
+        "color": "Polished Silver",
+        "stock": 14
+      },
+      {
+        "id": "v_jew_018_2",
+        "size": "7",
+        "color": "Polished Silver",
+        "stock": 15
+      }
+    ],
+    "occasionTags": ["Gifts", "Occasion"],
+    "fabric": "925 Pure Silver",
+    "productStory": {
+      "craftTechnique": "Wire-Weaving & Polishing",
+      "regionalOrigin": "Kolhapur, Maharashtra",
+      "description": "Plaiting thick silver wires around mandrels, finalized with hand-buffing compound for mirrors-like reflections."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Silver",
+    "gemstoneType": "None"
+  },
+  {
+    "id": "jew_019",
+    "slug": "royal-gold-plated-kamarband-waist-chain",
+    "name": "Royal Gold-Plated Kamarband Waist Chain",
+    "description": "A traditional, elaborate waist belt slide featuring hand-beaten amulets, hanging metallic details, and ruby accents.",
+    "price": {
+      "amount": 27000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_019_1",
+        "size": "OS",
+        "color": "Gold Ruby",
+        "stock": 2
+      }
+    ],
+    "occasionTags": ["Bridal", "Heritage"],
+    "fabric": "22K Gold Plated",
+    "productStory": {
+      "craftTechnique": "Amulet Pressing & Beading",
+      "regionalOrigin": "Jaipur, Rajasthan",
+      "description": "Handcrafted belt panels pressed on stone templates, with gold plating and ruby accents manually sewn on silk chords."
+    },
+    "stockStatus": "low_stock",
+    "category": "jewelry",
+    "metalType": "Gold",
+    "gemstoneType": "Ruby"
+  },
+  {
+    "id": "jew_020",
+    "slug": "filigree-statement-gold-bezel-earrings",
+    "name": "Filigree Statement Gold Bezel Earrings",
+    "description": "Luminous teardrop hanging earrings with high-contrast filigree open-weaves encased inside secure polished brass golden borders.",
+    "price": {
+      "amount": 13000,
+      "currency": "USD"
+    },
+    "images": [
+      {
+        "4:5": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+        "3:4": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+        "1:1": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=80",
+        "16:9": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&auto=format&fit=crop&q=80"
+      }
+    ],
+    "variants": [
+      {
+        "id": "v_jew_020_1",
+        "size": "OS",
+        "color": "Gold Mesh",
+        "stock": 6
+      }
+    ],
+    "occasionTags": ["Gifts", "Festive"],
+    "fabric": "Gold-Plated Brass",
+    "productStory": {
+      "craftTechnique": "Open-Mesh Soldering",
+      "regionalOrigin": "Jaipur, Rajasthan",
+      "description": "Delicate filigree wirework motifs mounted precisely within heavy surrounding frames, completed with mirror-polish gold accents."
+    },
+    "stockStatus": "in_stock",
+    "category": "jewelry",
+    "metalType": "Brass",
+    "gemstoneType": "None"
+  }
+]

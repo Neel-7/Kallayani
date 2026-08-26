@@ -1,0 +1,19 @@
+{
+  "slug": "autumn-equinox",
+  "title": "Autumn Equinox Showcase",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1590736969955-71cb91d3376d?w=1600&auto=format&fit=crop&q=80",
+    "alt": "A peaceful autumn setting under warm gold and amber foliage lighting."
+  },
+  "intro": "A minimal, generic verification document proving that the OccasionLandingPage component uses 100% data-driven orchestration with zero hardcoded occasion specific logic.",
+  "featuredSections": [
+    {
+      "heading": "Equinox Essentials",
+      "productIds": ["prod_001"]
+    },
+    {
+      "heading": "Complementary Ornaments",
+      "productIds": ["jew_003"]
+    }
+  ]
+}

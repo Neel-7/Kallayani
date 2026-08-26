@@ -9,6 +9,7 @@ import {
 } from 'src/components/shared/Breadcrumbs';
 import { Container } from 'src/components/shared/Container';
 import { EmptyState } from 'src/components/shared/EmptyState';
+// HMR trigger
 import { LoadMoreButton } from 'src/components/shared/LoadMoreButton';
 import { SectionHeading } from 'src/components/shared/SectionHeading';
 import { Button } from 'src/components/ui/button';

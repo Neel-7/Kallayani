@@ -49,6 +49,8 @@ const WishlistPage = () =>
   lazyWithSuspense(() => import('src/pages/WishlistPage'));
 const SearchPage = () => lazyWithSuspense(() => import('src/pages/SearchPage'));
 const EditPage = () => lazyWithSuspense(() => import('src/pages/EditPage'));
+const OccasionLandingPage = () =>
+  lazyWithSuspense(() => import('src/pages/OccasionLandingPage'));
 const NotFoundPage = () =>
   lazyWithSuspense(() => import('src/pages/NotFoundPage'));
 
@@ -99,7 +101,7 @@ export const router = createBrowserRouter([
       { path: 'home', element: <CollectionPage /> },
       { path: 'home/:category', element: <CollectionPage /> },
       { path: 'festive', element: <CollectionPage /> },
-      { path: 'festive/:occasion', element: <CollectionPage /> },
+      { path: 'festive/:occasion', element: <OccasionLandingPage /> },
       { path: 'gifts', element: <CollectionPage /> },
       { path: 'product/:productId', element: <ProductPage /> },
       { path: 'edit', element: <EditPage /> },
