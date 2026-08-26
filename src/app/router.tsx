@@ -2,6 +2,7 @@ import * as React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Container } from 'src/components/shared/Container';
 import { Skeleton } from 'src/components/ui/skeleton';
+import { ProtectedRoute } from 'src/features/account/ProtectedRoute';
 import { AccountLayout } from 'src/layouts/AccountLayout';
 import { CheckoutLayout } from 'src/layouts/CheckoutLayout';
 import { SiteLayout } from 'src/layouts/SiteLayout';
@@ -44,14 +45,24 @@ const ProductPage = () =>
 const CartPage = () => lazyWithSuspense(() => import('src/pages/CartPage'));
 const CheckoutPage = () =>
   lazyWithSuspense(() => import('src/pages/CheckoutPage'));
-const AccountPage = () =>
-  lazyWithSuspense(() => import('src/pages/AccountPage'));
 const WishlistPage = () =>
   lazyWithSuspense(() => import('src/pages/WishlistPage'));
 const SearchPage = () => lazyWithSuspense(() => import('src/pages/SearchPage'));
 const EditPage = () => lazyWithSuspense(() => import('src/pages/EditPage'));
 const NotFoundPage = () =>
   lazyWithSuspense(() => import('src/pages/NotFoundPage'));
+
+// Lazy loaded account pages
+const AccountOverviewPage = () =>
+  lazyWithSuspense(() => import('src/pages/account/AccountOverviewPage'));
+const OrdersPage = () =>
+  lazyWithSuspense(() => import('src/pages/account/OrdersPage'));
+const AddressesPage = () =>
+  lazyWithSuspense(() => import('src/pages/account/AddressesPage'));
+const AccountWishlistPage = () =>
+  lazyWithSuspense(() => import('src/pages/account/AccountWishlistPage'));
+const ProfilePage = () =>
+  lazyWithSuspense(() => import('src/pages/account/ProfilePage'));
 
 // Lazy loaded dev preview components (relocated to dev-only routes)
 const TokenPreview = () =>
@@ -97,16 +108,20 @@ export const router = createBrowserRouter([
       { path: 'wishlist', element: <WishlistPage /> },
       { path: 'cart', element: <CartPage /> },
 
-      // Account Section nested compositionally inside SiteLayout
+      // Account Section nested compositionally inside SiteLayout and protected
       {
         path: 'account',
-        element: <AccountLayout />,
+        element: (
+          <ProtectedRoute>
+            <AccountLayout />
+          </ProtectedRoute>
+        ),
         children: [
-          { index: true, element: <AccountPage /> },
-          { path: 'orders', element: <AccountPage /> },
-          { path: 'addresses', element: <AccountPage /> },
-          { path: 'wishlist', element: <AccountPage /> },
-          { path: 'profile', element: <AccountPage /> },
+          { index: true, element: <AccountOverviewPage /> },
+          { path: 'orders', element: <OrdersPage /> },
+          { path: 'addresses', element: <AddressesPage /> },
+          { path: 'wishlist', element: <AccountWishlistPage /> },
+          { path: 'profile', element: <ProfilePage /> },
         ],
       },
 
