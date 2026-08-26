@@ -1,9 +1,9 @@
-import React from 'react';
+import { type HTMLAttributes } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'src/components/ui/button';
 import { cn } from 'src/lib/utils';
 
-export interface CampaignBannerProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface CampaignBannerProps extends HTMLAttributes<HTMLDivElement> {
   image: string;
   title: string;
   subtitle: string;
@@ -37,7 +37,7 @@ export function CampaignBanner({
     <div
       className={cn(
         'w-full grid grid-cols-1 md:grid-cols-12 overflow-visible rounded-soft bg-surface font-sans shadow-drawer border border-border/30',
-        className
+        className,
       )}
       {...props}
     >
@@ -45,14 +45,14 @@ export function CampaignBanner({
       <div
         className={cn(
           'md:col-span-5 flex flex-col justify-center p-[32px] sm:p-[48px] md:p-[64px] space-y-[20px] rounded-t-soft md:rounded-l-soft md:rounded-tr-none',
-          isFestive ? 'bg-secondary text-surface' : bgColor
+          isFestive ? 'bg-secondary text-surface' : bgColor,
         )}
       >
         {tagline && (
           <span
             className={cn(
               'text-body-xs font-bold uppercase tracking-widest',
-              isFestive ? 'text-tertiary' : 'text-primary-text'
+              isFestive ? 'text-tertiary' : 'text-primary-text',
             )}
           >
             {tagline}
@@ -62,7 +62,7 @@ export function CampaignBanner({
           <h2
             className={cn(
               'text-heading-md md:text-heading-lg font-display font-semibold tracking-tight leading-tight text-balance',
-              isFestive ? 'text-surface' : 'text-primary-text'
+              isFestive ? 'text-surface' : 'text-primary-text',
             )}
           >
             {title}
@@ -70,7 +70,7 @@ export function CampaignBanner({
           <p
             className={cn(
               'text-body-sm leading-relaxed text-balance',
-              isFestive ? 'text-surface/80' : 'text-muted-foreground'
+              isFestive ? 'text-surface/80' : 'text-muted-foreground',
             )}
           >
             {subtitle}
@@ -81,11 +81,20 @@ export function CampaignBanner({
             asChild
             variant={isFestive ? 'outline' : 'default'}
             className={cn(
-              'rounded-soft font-semibold px-[28px] h-[46px]',
-              isFestive && 'border-white/40 text-surface hover:bg-white/10 hover:text-surface'
+              'group relative overflow-hidden rounded-soft font-semibold px-[28px] h-[46px]',
+              'bg-white/10 text-white',
+              'border border-white/20',
+              'transition-all duration-300 ease-out',
+              'hover:bg-white/15',
+              'hover:border-white/40',
+              'hover:text-white',
+              'hover:-translate-y-[1px]',
+              'active:translate-y-0',
             )}
           >
-            <Link to={ctaHref}>{ctaLabel}</Link>
+            <Link to={ctaHref} className="relative z-10">
+              {ctaLabel}
+            </Link>
           </Button>
         </div>
       </div>

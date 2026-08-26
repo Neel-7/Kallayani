@@ -1,5 +1,5 @@
 import { Heart } from 'lucide-react';
-import * as React from 'react';
+import type { ButtonHTMLAttributes } from 'react';
 import { Button } from 'src/components/ui/button';
 import { useWishlist } from 'src/features/wishlist/useWishlist';
 import { toggleWishlist } from 'src/features/wishlist/wishlistSlice';
@@ -7,7 +7,7 @@ import { useToast } from 'src/hooks/use-toast';
 import { cn } from 'src/lib/utils';
 import { useAppDispatch } from 'src/store/hooks';
 
-export interface WishlistButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface WishlistButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   productId: string;
   variant?: 'icon' | 'button';
   productName?: string; // used for custom toast alerts

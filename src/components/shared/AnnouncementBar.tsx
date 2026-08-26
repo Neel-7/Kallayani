@@ -1,8 +1,8 @@
 import { X } from 'lucide-react';
-import React, { useState } from 'react';
+import { useState, type HTMLAttributes } from 'react';
 import { cn } from 'src/lib/utils';
 
-export interface AnnouncementBarProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface AnnouncementBarProps extends HTMLAttributes<HTMLDivElement> {
   message?: string;
 }
 
@@ -22,12 +22,12 @@ export function AnnouncementBar({
   return (
     <div
       className={cn(
-        'w-full bg-primary-text text-white text-body-xs font-medium py-[8px] px-[16px] flex items-center justify-between gap-[12px] font-sans relative z-[60]',
-        className
+        'w-full bg-primary-text  text-body-xs font-medium py-[8px] px-[16px] flex items-center justify-between gap-[12px] font-sans relative z-30',
+        className,
       )}
       {...props}
     >
-      <div className="flex-1 text-center select-none truncate">
+      <div className="flex-1 text-center select-none truncate text-white">
         {message}
       </div>
       <button

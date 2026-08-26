@@ -1,9 +1,9 @@
-import React from 'react';
+import type { HTMLAttributes } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'src/components/ui/button';
 import { cn } from 'src/lib/utils';
 
-export interface HeroProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface HeroProps extends HTMLAttributes<HTMLDivElement> {
   image: string;
   headline: string;
   subhead: string;
@@ -31,7 +31,7 @@ export function Hero({
     <div
       className={cn(
         'relative w-full h-[65vh] md:h-[80vh] min-h-[500px] md:min-h-[640px] bg-muted-surface font-sans overflow-visible mb-[48px] md:mb-[64px]',
-        className
+        className,
       )}
       {...props}
     >
@@ -61,9 +61,11 @@ export function Hero({
             <Button
               asChild
               size="lg"
-              className="w-full md:w-auto bg-primary text-surface hover:bg-primary-text rounded-soft font-semibold px-[32px] h-[48px] md:h-[52px] text-body-sm shadow-sm transition-all hover:scale-[1.01]"
+              className="w-full md:w-auto bg-primary-text hover:bg-primary-text rounded-soft font-semibold px-[32px] h-[48px] md:h-[52px] text-body-sm shadow-sm transition-all hover:scale-[1.01]"
             >
-              <Link to={ctaHref}>{ctaLabel}</Link>
+              <Link to={ctaHref} className="text-surface">
+                {ctaLabel}
+              </Link>
             </Button>
           </div>
         </div>

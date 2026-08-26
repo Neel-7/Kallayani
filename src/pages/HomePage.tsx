@@ -20,12 +20,14 @@ export default function HomePage() {
   const newArrivals = products?.slice(0, 4) || [];
 
   // 2. Featured Collection: Filter products containing 'Jamdani' or fallback to a subset
-  const jamdanis = products?.filter(
-    (p) =>
-      p.name.toLowerCase().includes('jamdani') ||
-      p.description.toLowerCase().includes('jamdani')
-  ) || [];
-  const featuredCollectionProducts = jamdanis.length > 0 ? jamdanis.slice(0, 4) : products?.slice(2, 6) || [];
+  const jamdanis =
+    products?.filter(
+      (p) =>
+        p.name.toLowerCase().includes('jamdani') ||
+        p.description.toLowerCase().includes('jamdani'),
+    ) || [];
+  const featuredCollectionProducts =
+    jamdanis.length > 0 ? jamdanis.slice(0, 4) : products?.slice(2, 6) || [];
 
   return (
     <div className="w-full flex flex-col font-sans overflow-x-hidden">
@@ -45,7 +47,10 @@ export default function HomePage() {
 
       {/* 3. Signature Cultural Touchpoint: ThreadDivider as quiet transition marker per PART F */}
       <Container className="pt-[16px] md:pt-[24px]">
-        <ThreadDivider color="primary" className="max-w-[320px] mx-auto opacity-50" />
+        <ThreadDivider
+          color="primary"
+          className="max-w-[320px] mx-auto opacity-50"
+        />
       </Container>
 
       {/* Main Container - Spacing rhythm is varied manually at each child element to fix undifferentiated audit finding per PART D */}
@@ -108,7 +113,10 @@ export default function HomePage() {
               <Skeleton className="h-[36px] w-[320px]" />
               <div className="grid grid-cols-2 md:grid-cols-4 gap-[24px]">
                 {Array.from({ length: 4 }).map((_, idx) => (
-                  <Skeleton key={idx} className="aspect-[4/5] w-full rounded-soft" />
+                  <Skeleton
+                    key={idx}
+                    className="aspect-[4/5] w-full rounded-soft"
+                  />
                 ))}
               </div>
             </div>
