@@ -1,8 +1,8 @@
 // Considered brand choice (Fashion Didone direction) per blueprint §36 & DESIGN_AUDIT.md.
 // Chosen for dramatic high-contrast stroke weights and refined editorial visual scale.
 export const fontFamilies = {
-  display: '"Bodoni Moda", "Playfair Display", Georgia, serif',
-  sans: '"Inter", system-ui, sans-serif',
+  display: '"GT Sectra", "Times New Roman", serif',
+  sans: '"GT America", "Helvetica Neue", sans-serif',
 } as const;
 
 export const typeScale = {
