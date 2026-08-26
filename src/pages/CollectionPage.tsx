@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { useGetProductsQuery } from 'src/api/catalogApi';
 import { FilterPanel } from 'src/components/commerce/FilterPanel';
@@ -37,6 +38,11 @@ export default function CollectionPage() {
   const pathParts = pathname.split('/').filter(Boolean);
   const department = pathParts[0] || 'women';
 
+  // Reset active filters and page pagination when department or category changes
+  useEffect(() => {
+    dispatch(clearAllFilters());
+  }, [department, category, dispatch]);
+
   // Capitalize for clean visual titles
   const formatText = (text: string) =>
     text.charAt(0).toUpperCase() + text.slice(1).replace('-', ' ');
@@ -58,8 +64,11 @@ export default function CollectionPage() {
   const {
     data: rawProducts,
     isLoading,
+    isFetching,
     isError,
   } = useGetProductsQuery({ category: department });
+
+  const isDataLoading = isLoading || isFetching;
 
   // 3. Derive filtered and sorted product list strictly in the selectors/hook
   const {
@@ -110,7 +119,7 @@ export default function CollectionPage() {
             }
             align="left"
           />
-          {!isLoading && !isError && (
+          {!isDataLoading && !isError && (
             <span className="text-body-sm font-mono text-muted-foreground shrink-0 select-none">
               Showing{' '}
               <span className="font-semibold text-foreground">
@@ -187,7 +196,7 @@ export default function CollectionPage() {
           </div>
 
           {/* Loading Fallback Loader Grid */}
-          {isLoading && (
+          {isDataLoading && (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[24px]">
               {Array.from({ length: 4 }).map((_, index) => (
                 <div
@@ -211,7 +220,7 @@ export default function CollectionPage() {
           )}
 
           {/* Data List Workspace Render Grid */}
-          {!isLoading && !isError && filteredProducts.length > 0 && (
+          {!isDataLoading && !isError && filteredProducts.length > 0 && (
             <div className="space-y-[32px]">
               <ProductGrid products={paginatedProducts} />
               <LoadMoreButton hasMore={hasMore} onClick={handleLoadMore} />
@@ -219,7 +228,7 @@ export default function CollectionPage() {
           )}
 
           {/* Empty State Result Container */}
-          {!isLoading && !isError && filteredProducts.length === 0 && (
+          {!isDataLoading && !isError && filteredProducts.length === 0 && (
             <EmptyState
               title="No refined matches found"
               description="No products fit your precise filtered criteria. Try expanding or clearing your current active filter chips."

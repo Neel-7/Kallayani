@@ -24,65 +24,66 @@ function PageSkeleton() {
   );
 }
 
-// Lazy load wrapper helper
-function lazyWithSuspense(
-  importFn: () => Promise<{ default: React.ComponentType<unknown> }>,
-) {
-  const LazyComponent = React.lazy(importFn);
+// Stable lazy-load Suspense wrapper helper
+function withSuspense(Component: React.ComponentType<unknown>) {
   return (
     <React.Suspense fallback={<PageSkeleton />}>
-      <LazyComponent />
+      <Component />
     </React.Suspense>
   );
 }
 
-// Lazy loaded page components
-const HomePage = () => lazyWithSuspense(() => import('src/pages/HomePage'));
-const CollectionPage = () =>
-  lazyWithSuspense(() => import('src/pages/CollectionPage'));
-const ProductPage = () =>
-  lazyWithSuspense(() => import('src/pages/ProductPage'));
-const CartPage = () => lazyWithSuspense(() => import('src/pages/CartPage'));
-const CheckoutPage = () =>
-  lazyWithSuspense(() => import('src/pages/CheckoutPage'));
-const WishlistPage = () =>
-  lazyWithSuspense(() => import('src/pages/WishlistPage'));
-const SearchPage = () => lazyWithSuspense(() => import('src/pages/SearchPage'));
-const EditPage = () => lazyWithSuspense(() => import('src/pages/EditPage'));
-const OccasionLandingPage = () =>
-  lazyWithSuspense(() => import('src/pages/OccasionLandingPage'));
-const NotFoundPage = () =>
-  lazyWithSuspense(() => import('src/pages/NotFoundPage'));
+// Stable lazy-loaded page modules
+const HomePageLazy = React.lazy(() => import('src/pages/HomePage'));
+const CollectionPageLazy = React.lazy(() => import('src/pages/CollectionPage'));
+const ProductPageLazy = React.lazy(() => import('src/pages/ProductPage'));
+const CartPageLazy = React.lazy(() => import('src/pages/CartPage'));
+const CheckoutPageLazy = React.lazy(() => import('src/pages/CheckoutPage'));
+const WishlistPageLazy = React.lazy(() => import('src/pages/WishlistPage'));
+const SearchPageLazy = React.lazy(() => import('src/pages/SearchPage'));
+const EditPageLazy = React.lazy(() => import('src/pages/EditPage'));
+const OccasionLandingPageLazy = React.lazy(() => import('src/pages/OccasionLandingPage'));
+const NotFoundPageLazy = React.lazy(() => import('src/pages/NotFoundPage'));
 
-// Lazy loaded account pages
-const AccountOverviewPage = () =>
-  lazyWithSuspense(() => import('src/pages/account/AccountOverviewPage'));
-const OrdersPage = () =>
-  lazyWithSuspense(() => import('src/pages/account/OrdersPage'));
-const AddressesPage = () =>
-  lazyWithSuspense(() => import('src/pages/account/AddressesPage'));
-const AccountWishlistPage = () =>
-  lazyWithSuspense(() => import('src/pages/account/AccountWishlistPage'));
-const ProfilePage = () =>
-  lazyWithSuspense(() => import('src/pages/account/ProfilePage'));
+// Stable lazy-loaded account page modules
+const AccountOverviewPageLazy = React.lazy(() => import('src/pages/account/AccountOverviewPage'));
+const OrdersPageLazy = React.lazy(() => import('src/pages/account/OrdersPage'));
+const AddressesPageLazy = React.lazy(() => import('src/pages/account/AddressesPage'));
+const AccountWishlistPageLazy = React.lazy(() => import('src/pages/account/AccountWishlistPage'));
+const ProfilePageLazy = React.lazy(() => import('src/pages/account/ProfilePage'));
 
-// Lazy loaded dev preview components (relocated to dev-only routes)
-const TokenPreview = () =>
-  lazyWithSuspense(() =>
-    import('src/dev/TokenPreview').then((m) => ({ default: m.TokenPreview })),
-  );
-const ComponentPreview = () =>
-  lazyWithSuspense(() =>
-    import('src/dev/ComponentPreview').then((m) => ({
-      default: m.ComponentPreview,
-    })),
-  );
-const SharedComponentPreview = () =>
-  lazyWithSuspense(() =>
-    import('src/dev/SharedComponentPreview').then((m) => ({
-      default: m.SharedComponentPreview,
-    })),
-  );
+// Stable lazy-loaded dev components
+const TokenPreviewLazy = React.lazy(() =>
+  import('src/dev/TokenPreview').then((m) => ({ default: m.TokenPreview })),
+);
+const ComponentPreviewLazy = React.lazy(() =>
+  import('src/dev/ComponentPreview').then((m) => ({ default: m.ComponentPreview })),
+);
+const SharedComponentPreviewLazy = React.lazy(() =>
+  import('src/dev/SharedComponentPreview').then((m) => ({ default: m.SharedComponentPreview })),
+);
+
+// Statically defined route-element components
+const HomePage = () => withSuspense(HomePageLazy);
+const CollectionPage = () => withSuspense(CollectionPageLazy);
+const ProductPage = () => withSuspense(ProductPageLazy);
+const CartPage = () => withSuspense(CartPageLazy);
+const CheckoutPage = () => withSuspense(CheckoutPageLazy);
+const WishlistPage = () => withSuspense(WishlistPageLazy);
+const SearchPage = () => withSuspense(SearchPageLazy);
+const EditPage = () => withSuspense(EditPageLazy);
+const OccasionLandingPage = () => withSuspense(OccasionLandingPageLazy);
+const NotFoundPage = () => withSuspense(NotFoundPageLazy);
+
+const AccountOverviewPage = () => withSuspense(AccountOverviewPageLazy);
+const OrdersPage = () => withSuspense(OrdersPageLazy);
+const AddressesPage = () => withSuspense(AddressesPageLazy);
+const AccountWishlistPage = () => withSuspense(AccountWishlistPageLazy);
+const ProfilePage = () => withSuspense(ProfilePageLazy);
+
+const TokenPreview = () => withSuspense(TokenPreviewLazy);
+const ComponentPreview = () => withSuspense(ComponentPreviewLazy);
+const SharedComponentPreview = () => withSuspense(SharedComponentPreviewLazy);
 
 export const router = createBrowserRouter([
   // Main Site Layout Route Group
